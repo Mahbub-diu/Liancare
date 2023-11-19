@@ -347,10 +347,16 @@
   header .main-header .circle-shape-two {
     width: 1074px;
     height: 1074px;
-    border-radius: 1074px;
-    border: 50px solid red;
     top: -265px;
     left: -32px;
+    border-top: 50px solid red;
+    border-left: 50px solid green;
+    border-bottom: 50px solid yellow;
+    border-right: 50px solid pink;
+    border-top-left-radius: 1074px;
+    border-bottom-left-radius: 1074px;
+    border-top-right-radius: 1074px;
+    border-bottom-right-radius: 1074px;
   }
   header .main-header .circle-shape-one {
     display: none;
@@ -426,9 +432,24 @@
   }
   .velor-main {
     padding-bottom: 0;
+    overflow: hidden;
   }
-  .velor-main .circle-shape-three {
-    display: none;
+  .velor-main .fourteenfour-container .circle-shape-three {
+    width: 700px;
+    height: 700px;
+    border-top: 36px solid red;
+    border-left: 36px solid green;
+    border-bottom: 36px solid yellow;
+    border-right: 36px solid pink;
+    border-top-left-radius: 700px;
+    border-bottom-left-radius: 700px;
+    border-top-right-radius: 700px;
+    border-bottom-right-radius: 700px;
+    position: absolute;
+    left: 50%;
+    top: -51%;
+    transform: translateX(-50%);
+    z-index: 0;
   }
   .velor-main .custom-mb {
     margin-bottom: 30px;
@@ -450,7 +471,7 @@
   }
   .perche-invesstire {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
@@ -602,13 +623,18 @@
   }
   .agenda-main .circle-shape-four {
     position: absolute;
-    width: 700px;
-    height: 700px;
-    border-radius: 50%;
-    border: 35px solid red;
-    top: 120px;
-    left: 50%;
-    transform: translateX(-50%);
+    max-width: 575px;
+    height: 575px;
+    border-top: 40px solid red;
+    border-left: none;
+    border-bottom: none;
+    border-right: 0;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 0px;
+    right: 0;
   }
   .agenda-main .circle-shape-five {
     display: none;
@@ -616,6 +642,7 @@
   .blog-main {
     padding-top: 0;
     padding-bottom: 50px;
+    overflow-x: clip;
   }
   .blog-main .section-titlebox h3 {
     font-size: 25px;
@@ -638,17 +665,20 @@
   }
   .blog-main .circle-shape-footer {
     position: absolute;
-    width: 1517px;
-    height: 2125px;
+    width: 1700px;
+    height: 2523px;
     border-radius: 50%;
-    border: 63px solid red;
-    bottom: -166px;
-    left: 35%;
+    border: 45px solid red;
+    bottom: -177px;
+    left: 277px;
     transform: translateX(-50%);
     z-index: 0;
   }
   footer {
     padding: 50px 0;
+  }
+  footer .footer-logo {
+    margin-bottom: 40px;
   }
   footer .footer-logo img {
     max-width: 110px;
