@@ -1041,6 +1041,13 @@
   .bottom-three-section::before {
     height: 96%;
   }
+  .bottom-three-section::after {
+    top: 270px;
+    width: 100%;
+    height: 81.6%;
+    background-size: 1000px;
+    background-position-y: bottom;
+  }
 }
 @media (min-width: 361px) and (max-width: 375px) {
   header .main-header .circle-shape-two {
@@ -1380,6 +1387,13 @@
   }
   .bottom-three-section::before {
     height: 96%;
+  }
+  .bottom-three-section::after {
+    top: 270px;
+    width: 100%;
+    height: 81.4%;
+    background-size: 1000px;
+    background-position-y: bottom;
   }
 }
 @media (max-width: 360px) {
