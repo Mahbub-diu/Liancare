@@ -867,14 +867,15 @@ header .mobile-menu-main.sticky {
   margin-bottom: 60px;
   position: relative;
   z-index: 9;
+  border-radius: 20px 20px 0px 0px;
 }
 .blog-main .blog-card .image-box {
-  height: 286px;
+  min-height: 367px;
   border-radius: 20px 20px 0px 0px;
 }
 .blog-main .blog-card .image-box img {
-  height: 286px;
   border-radius: 20px 20px 0px 0px;
+  max-width: 100%;
 }
 .blog-main .blog-card .content-box {
   padding: 40px 35px;
@@ -948,7 +949,6 @@ header .mobile-menu-main.sticky {
 }
 
 footer {
-  border-top: 1px solid #d9d9dd;
   padding: 60px 100px 40px 100px;
   position: relative;
   z-index: 9;

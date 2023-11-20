@@ -1731,7 +1731,7 @@
 
   // banner css start from here
   .main-banner {
-    padding: 50px 0 112.72px 0;
+    padding: 30px 0 112.72px 0;
     .ps-0 {
       padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
     }
@@ -1801,24 +1801,10 @@
   .velor-main {
     padding-bottom: 0;
     overflow-x: hidden;
-    .fourteenfour-container {
-      .circle-shape-three {
-        width: 500px;
-        height: 500px;
-        border-top: 36px solid red;
-        border-left: 36px solid green;
-        border-bottom: 36px solid yellow;
-        border-right: 36px solid pink;
-        border-top-left-radius: 400px;
-        border-bottom-left-radius: 400px;
-        border-top-right-radius: 400px;
-        border-bottom-right-radius: 400px;
-        position: absolute;
-        left: 50%;
-        top: -337px;
-        transform: translateX(-50%);
-        z-index: 0;
-      }
+    &::before {
+      height: 264px;
+      top: -110px;
+      left: 0;
     }
 
     .custom-mb {
@@ -1850,10 +1836,12 @@
     padding-bottom: 50px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    margin-bottom: 0;
     .left-image-box {
       padding-left: 0;
       img {
-        max-width: 95%;
+        max-width: 100%;
+        min-height: auto;
       }
       .shape-image {
         top: -12px;
@@ -1882,7 +1870,7 @@
       .bottom-textbox {
         padding: 20px 30px 20px 30px;
         height: 82px;
-        right: -4px;
+        right: -7px;
         P {
           font-size: 16px;
           strong {
@@ -1949,6 +1937,8 @@
     .right-imagebox {
       position: unset;
       width: 100%;
+      float: none;
+      transform: unset;
     }
   }
   // PIATTAFORMA section start from here
@@ -2056,23 +2046,12 @@
         }
       }
       .image-box {
-        height: auto;
+        min-height: 270px;
         img {
           width: 100%;
           height: 100%;
         }
       }
-    }
-    .circle-shape-footer {
-      position: absolute;
-      width: 1200px;
-      height: 2025px;
-      border-radius: 50%;
-      border: 45px solid red;
-      bottom: -156px;
-      left: 48%;
-      transform: translateX(-50%);
-      z-index: 0;
     }
   }
   // blog section ends here
@@ -2108,5 +2087,8 @@
         justify-content: start;
       }
     }
+  }
+  .bottom-three-section::before {
+    height: 96%;
   }
 }

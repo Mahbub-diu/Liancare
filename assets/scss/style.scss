@@ -904,12 +904,13 @@ header {
     margin-bottom: 60px;
     position: relative;
     z-index: 9;
+    border-radius: 20px 20px 0px 0px;
     .image-box {
-      height: 286px;
+      min-height: 367px;
       border-radius: 20px 20px 0px 0px;
       img {
-        height: 286px;
         border-radius: 20px 20px 0px 0px;
+        max-width: 100%;
       }
     }
     .content-box {
@@ -988,10 +989,11 @@ header {
 // blog section ends here
 
 footer {
-  border-top: 1px solid #d9d9dd;
+  // border-top: 1px solid #d9d9dd;
   padding: 60px 100px 40px 100px;
   position: relative;
   z-index: 9;
+  // background: $body-bg;
   .footer-logo {
     margin-bottom: 20px;
     position: relative;
@@ -1133,7 +1135,6 @@ footer {
 
 // footer section ends here
 .bottom-three-section {
-  // background: url(/assets/images/b3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1147,7 +1148,7 @@ footer {
     background-color: green;
     width: 100%;
     height: 92%;
-    // background: url(/assets/images/btlarge.png);
+
     background: url(../images/btlarge.png);
     background-size: cover;
   }

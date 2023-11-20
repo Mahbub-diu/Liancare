@@ -1423,7 +1423,7 @@
     z-index: 9;
   }
   .main-banner {
-    padding: 50px 0 112.72px 0;
+    padding: 30px 0 112.72px 0;
   }
   .main-banner .ps-0 {
     padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
@@ -1489,22 +1489,10 @@
     padding-bottom: 0;
     overflow-x: hidden;
   }
-  .velor-main .fourteenfour-container .circle-shape-three {
-    width: 500px;
-    height: 500px;
-    border-top: 36px solid red;
-    border-left: 36px solid green;
-    border-bottom: 36px solid yellow;
-    border-right: 36px solid pink;
-    border-top-left-radius: 400px;
-    border-bottom-left-radius: 400px;
-    border-top-right-radius: 400px;
-    border-bottom-right-radius: 400px;
-    position: absolute;
-    left: 50%;
-    top: -337px;
-    transform: translateX(-50%);
-    z-index: 0;
+  .velor-main::before {
+    height: 264px;
+    top: -110px;
+    left: 0;
   }
   .velor-main .custom-mb {
     margin-bottom: 30px;
@@ -1529,12 +1517,14 @@
     padding-bottom: 50px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    margin-bottom: 0;
   }
   .perche-invesstire .left-image-box {
     padding-left: 0;
   }
   .perche-invesstire .left-image-box img {
-    max-width: 95%;
+    max-width: 100%;
+    min-height: auto;
   }
   .perche-invesstire .left-image-box .shape-image {
     top: -12px;
@@ -1562,7 +1552,7 @@
   .perche-invesstire .left-image-box .bottom-textbox {
     padding: 20px 30px 20px 30px;
     height: 82px;
-    right: -4px;
+    right: -7px;
   }
   .perche-invesstire .left-image-box .bottom-textbox P {
     font-size: 16px;
@@ -1621,6 +1611,8 @@
   .piattaforma-main .right-imagebox {
     position: unset;
     width: 100%;
+    float: none;
+    transform: unset;
   }
   .agenda-main {
     padding-bottom: 50px;
@@ -1711,22 +1703,11 @@
     line-height: 28px;
   }
   .blog-main .blog-card .image-box {
-    height: auto;
+    min-height: 270px;
   }
   .blog-main .blog-card .image-box img {
     width: 100%;
     height: 100%;
-  }
-  .blog-main .circle-shape-footer {
-    position: absolute;
-    width: 1200px;
-    height: 2025px;
-    border-radius: 50%;
-    border: 45px solid red;
-    bottom: -156px;
-    left: 48%;
-    transform: translateX(-50%);
-    z-index: 0;
   }
   footer {
     padding: 50px 0;
@@ -1752,5 +1733,8 @@
   }
   footer .footer-social-link ul {
     justify-content: start;
+  }
+  .bottom-three-section::before {
+    height: 96%;
   }
 }/*# sourceMappingURL=responsive.css.map */
