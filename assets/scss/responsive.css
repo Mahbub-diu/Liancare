@@ -633,8 +633,9 @@
     border-bottom-left-radius: 50%;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
-    top: 0px;
-    right: 0;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .agenda-main .circle-shape-five {
     display: none;
@@ -666,7 +667,7 @@
   .blog-main .circle-shape-footer {
     position: absolute;
     width: 1700px;
-    height: 2523px;
+    height: 2478px;
     border-radius: 50%;
     border: 45px solid red;
     bottom: -177px;
