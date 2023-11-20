@@ -249,7 +249,7 @@ header {
         }
       }
       .mobile-menu-link {
-        // background: $body-bg;
+        background: $body-bg;
         padding: 15px 15px;
         padding-top: 0;
 
@@ -277,7 +277,7 @@ header {
     left: 0;
     top: 0;
     z-index: 999;
-    // background: $body-bg;
+    background: $body-bg;
 
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;

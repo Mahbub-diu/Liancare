@@ -52,9 +52,7 @@
     .main-header {
       padding: 0;
       margin: 0;
-      .container {
-        display: none;
-      }
+      display: none;
     }
   }
 }
@@ -1734,6 +1732,9 @@
   // banner css start from here
   .main-banner {
     padding: 50px 0 112.72px 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
     .left-content-box {
       margin-top: 0;
       margin-bottom: 25px;
@@ -1758,12 +1759,16 @@
     .right-content-box {
       .shape-iamge {
         top: 0;
+        img {
+          max-height: 315px;
+        }
       }
       img {
-        max-width: 95%;
+        max-width: 100%;
+        min-height: unset;
       }
       .center-text-box {
-        right: -4px;
+        right: -14px;
         height: 60px;
         padding: 20px 30px 20px 30px;
         font-size: 14px;
@@ -1779,6 +1784,7 @@
         padding: 20px 30px 20px 30px;
         font-size: 14px;
         height: 77px;
+        box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
         strong {
           font-size: 16px;
         }
