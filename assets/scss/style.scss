@@ -36,7 +36,8 @@ img {
 }
 
 .first-three-section {
-  background: url(/assets/images/51.svg);
+  // background: url(/assets/images/51.svg);
+  background: url(../images/51.svg);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -448,7 +449,8 @@ header {
     height: 90%;
     top: -103px;
     left: 0;
-    background: url(/assets/images/valor2.png);
+    // background: url(/assets/images/valor2.png);
+    background: url(../images/valor2.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1145,7 +1147,8 @@ footer {
     background-color: green;
     width: 100%;
     height: 92%;
-    background: url(/assets/images/btlarge.png);
+    // background: url(/assets/images/btlarge.png);
+    background: url(../images/btlarge.png);
     background-size: cover;
   }
   &::after {
@@ -1155,7 +1158,7 @@ footer {
     content: '';
     width: 100%;
     height: 78%;
-    background: url(/assets/images/last222.png);
+    background: url(../images/last222.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
