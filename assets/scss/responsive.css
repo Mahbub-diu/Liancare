@@ -1735,4 +1735,11 @@
   .bottom-three-section::before {
     height: 96%;
   }
+  .bottom-three-section::after {
+    top: 270px;
+    width: 100%;
+    height: 81.4%;
+    background-size: 1000px;
+    background-position-y: bottom;
+  }
 }/*# sourceMappingURL=responsive.css.map */

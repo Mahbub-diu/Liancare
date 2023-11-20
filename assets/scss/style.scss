@@ -263,13 +263,14 @@ header {
         height: 100%;
         width: 100%;
         left: 0;
+        top: 89px;
         position: fixed;
         z-index: 999999;
       }
       .mobile-menu-link.show {
         transform: none;
-        // z-index: 999999;
-        // position: fixed;
+
+        top: 103px;
       }
     }
   }
@@ -283,6 +284,9 @@ header {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
+    .mobile-menu-link.show {
+      top: 89px;
+    }
   }
 }
 // header section end here
