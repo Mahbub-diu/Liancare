@@ -467,7 +467,6 @@ header {
     }
   }
   .valori-contentbox {
-    // padding: 50px 44px;
     padding: 50px 40px;
     background: #fff;
     border-radius: 6px 60px;
@@ -517,7 +516,7 @@ header {
 .perche-invesstire {
   padding-top: 132px;
   padding-bottom: 170px;
-
+  margin-bottom: 130px;
   background: url(../images/bg-shapelatest.png);
 
   background-size: cover;
@@ -689,17 +688,7 @@ header {
 
 // purche investire section end here
 .piattaforma-main {
-  // background: #fff;
-  // background: url(/assets/images/PIATTAFORMAred.png);
-  // background-size: cover;
-  // background-position: center center;
-  // background-repeat: no-repeat;
-  // border-bottom-left-radius: 50%;
-  // border-bottom-right-radius: 50%;
-  padding-top: 266px;
   position: relative;
-  // background-color: red;
-
   .container {
     max-width: 1440px;
   }
