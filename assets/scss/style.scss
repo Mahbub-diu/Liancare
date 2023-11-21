@@ -35,7 +35,6 @@ img {
 }
 
 .first-three-section {
-  // background: url(/assets/images/51.svg);
   background: url(../images/51.svg);
   background-size: cover;
   background-position: bottom;
@@ -47,8 +46,11 @@ header {
   position: relative;
 
   transition: 0.2s all;
-  // padding: 20px 60px;
+
   padding: 20px 20px;
+  .container-fluid {
+    max-width: 95%;
+  }
   .main-header {
     .container {
       max-width: 1440px;
@@ -689,6 +691,9 @@ header {
 // purche investire section end here
 .piattaforma-main {
   position: relative;
+  padding-bottom: 245px;
+  padding-top: 145px;
+
   .container {
     max-width: 1440px;
   }
@@ -731,20 +736,20 @@ header {
   .right-imagebox {
     position: absolute;
     width: 50%;
-    text-align: right;
+    // text-align: right;
+    text-align: center;
     right: 0;
     top: 50%;
-    float: right;
+
     height: auto;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
+
     img {
-      max-width: 100%;
-      // max-width: 905px;
-      max-height: 581px;
+      width: 100%;
     }
   }
 }
