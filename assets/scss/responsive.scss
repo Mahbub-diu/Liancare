@@ -22,8 +22,6 @@
 
   // banner css start from here
   .main-banner {
-    .left-content-box {
-    }
     .right-content-box {
       .shape-iamge {
         height: 100%;
@@ -35,32 +33,6 @@
         max-width: 100%;
         min-height: unset;
         width: 100%;
-      }
-      .center-text-box {
-        right: -11px;
-        height: 60px;
-        padding: 20px 30px 20px 30px;
-        font-size: 14px;
-        line-height: 23px;
-        .center-textbox-icon {
-          right: 9px;
-          top: 49px;
-          width: 40px;
-          height: 40px;
-        }
-      }
-      .bottom-text-box {
-        padding: 20px 30px 20px 30px;
-        font-size: 14px;
-        height: 77px;
-        box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
-        strong {
-          font-size: 16px;
-        }
-        .botttom-textbox-icon {
-          width: 40px;
-          height: 40px;
-        }
       }
     }
   }
@@ -92,11 +64,6 @@
           height: 30px;
         }
       }
-      // .content {
-      //   h3 {
-      //     font-size: 24px;
-      //   }
-      // }
     }
   }
   // velor section ends here
@@ -109,8 +76,6 @@
     border-bottom-right-radius: 0;
     margin-bottom: 0;
     .left-image-box {
-      padding-left: 0;
-      display: block;
       img {
         max-width: 100%;
         min-height: auto;
@@ -120,59 +85,9 @@
         top: -12px;
         right: -14px;
       }
-      .top-textbox {
-        padding: 20px 30px 20px 30px;
-        top: 70px;
-        left: -10px;
-        height: 62px;
 
-        p {
-          font-size: 14px;
-          line-height: 23px;
-        }
-        .toptextbox-icon {
-          width: 40px;
-          height: 40px;
-          bottom: -29px;
-          left: 0;
-          img {
-            max-width: 100%;
-          }
-        }
-      }
       .bottom-textbox {
-        padding: 20px 30px 20px 30px;
-        height: 82px;
-        right: -7px;
-        P {
-          font-size: 16px;
-          strong {
-            font-size: 16px;
-          }
-        }
-        .bottomtextbox-icon {
-          width: 40px;
-          height: 40px;
-          right: -5px;
-        }
-      }
-    }
-    .ps-0 {
-      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
-    }
-    .right-contentbox {
-      margin-top: 50px;
-      .section-titlebox {
-        h3 {
-          font-size: 35px;
-          line-height: normal;
-          margin-bottom: 25px;
-        }
-      }
-      p {
-        font-size: 17px;
-        line-height: 25px;
-        margin-bottom: 20px;
+        right: -30px;
       }
     }
   }
@@ -180,38 +95,38 @@
 
   // PIATTAFORMA section start from here
   .piattaforma-main {
-    padding-bottom: 50px;
-    padding-top: 50px;
-    .pe-0 {
-      padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
-    }
+    padding-bottom: 150px;
+    padding-top: 150px;
+    // .pe-0 {
+    //   padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    // }
     .px-custom {
       padding-left: 0;
       padding-right: 0;
     }
     .leftcontent-box {
-      margin-top: 0px;
-      .section-titlebox {
-        h3 {
-          font-size: 35px;
-          line-height: normal;
-          margin-bottom: 25px;
-        }
-      }
-      p {
-        font-size: 17px;
-        line-height: 25px;
-        margin-bottom: 20px;
-        br {
-          display: none;
-        }
-      }
+      // margin-top: 0px;
+      // .section-titlebox {
+      //   h3 {
+      //     font-size: 35px;
+      //     line-height: normal;
+      //     margin-bottom: 25px;
+      //   }
+      // }
+      // p {
+      //   font-size: 17px;
+      //   line-height: 25px;
+      //   margin-bottom: 20px;
+      //   br {
+      //     display: none;
+      //   }
+      // }
     }
     .right-imagebox {
-      position: unset;
-      width: 100%;
-      float: none;
-      transform: unset;
+      // position: unset;
+      // width: 100%;
+      // float: none;
+      // transform: unset;
       img {
         max-height: unset;
         width: 100%;
