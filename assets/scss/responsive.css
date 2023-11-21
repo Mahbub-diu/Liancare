@@ -1,46 +1,11 @@
 @media (min-width: 1366px) and (max-width: 1440px) {
+  .container {
+    max-width: 1320px !important;
+  }
   header .main-header a img {
     max-width: 125px;
   }
-  header .main-header .navbar-top {
-    margin-bottom: 15px;
-  }
-  header .main-header .navbar-top p {
-    font-size: 15px;
-  }
-  header .main-header .navbar-top a {
-    font-size: 15px;
-    padding: 10px 18px 10px 18px;
-  }
-  header .main-header .navbar-bottom ul li a {
-    font-size: 15px;
-  }
-  .main-banner {
-    padding: 30px 0 145.72px 0;
-  }
-  .main-banner .ps-0 {
-    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
-  }
-  .main-banner .left-content-box {
-    margin-top: 0;
-    margin-bottom: 25px;
-  }
-  .main-banner .left-content-box h1 {
-    font-size: 45px;
-    line-height: 50px;
-    margin-bottom: 25px;
-  }
-  .main-banner .left-content-box h1 strong {
-    font-size: 45px;
-    line-height: 50px;
-  }
-  .main-banner .left-content-box p {
-    font-size: 20px;
-    line-height: 30px;
-    margin: 0;
-  }
   .main-banner .right-content-box .shape-iamge {
-    top: 0;
     height: 100%;
   }
   .main-banner .right-content-box .shape-iamge img {
@@ -84,7 +49,8 @@
   .velor-main::before {
     height: 325px;
     top: 35px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .velor-main .custom-mb {
     margin-bottom: 30px;
@@ -101,9 +67,6 @@
   .velor-main .valori-contentbox .valori-iconbox img {
     width: 30px;
     height: 30px;
-  }
-  .velor-main .valori-contentbox .content h3 {
-    font-size: 24px;
   }
   .perche-invesstire {
     padding-top: 80px;

@@ -5,6 +5,9 @@
 @media (min-width: 1367px) and (max-width: 1700px) {
 }
 @media (min-width: 1366px) and (max-width: 1440px) {
+  .container {
+    max-width: 1320px !important;
+  }
   // header part start from here
   header {
     .main-header {
@@ -13,57 +16,16 @@
           max-width: 125px;
         }
       }
-      .navbar-top {
-        margin-bottom: 15px;
-        p {
-          font-size: 15px;
-        }
-        a {
-          font-size: 15px;
-          padding: 10px 18px 10px 18px;
-        }
-      }
-      .navbar-bottom {
-        ul {
-          li {
-            a {
-              font-size: 15px;
-            }
-          }
-        }
-      }
     }
   }
   // header part end here
 
   // banner css start from here
   .main-banner {
-    // padding: 30px 0 167.72px 0;
-    padding: 30px 0 145.72px 0;
-    .ps-0 {
-      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
-    }
     .left-content-box {
-      margin-top: 0;
-      margin-bottom: 25px;
-      h1 {
-        font-size: 45px;
-        line-height: 50px;
-        margin-bottom: 25px;
-        strong {
-          font-size: 45px;
-          line-height: 50px;
-        }
-      }
-      p {
-        font-size: 20px;
-        line-height: 30px;
-        margin: 0;
-      }
     }
     .right-content-box {
       .shape-iamge {
-        top: 0;
         height: 100%;
         img {
           height: 100%;
@@ -111,7 +73,8 @@
     &::before {
       height: 325px;
       top: 35px;
-      left: 0;
+      left: 50%;
+      transform: translateX(-50%);
     }
 
     .custom-mb {
@@ -129,11 +92,11 @@
           height: 30px;
         }
       }
-      .content {
-        h3 {
-          font-size: 24px;
-        }
-      }
+      // .content {
+      //   h3 {
+      //     font-size: 24px;
+      //   }
+      // }
     }
   }
   // velor section ends here
