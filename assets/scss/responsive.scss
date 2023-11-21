@@ -97,36 +97,13 @@
   .piattaforma-main {
     padding-bottom: 150px;
     padding-top: 150px;
-    // .pe-0 {
-    //   padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
-    // }
+
     .px-custom {
       padding-left: 0;
       padding-right: 0;
     }
-    .leftcontent-box {
-      // margin-top: 0px;
-      // .section-titlebox {
-      //   h3 {
-      //     font-size: 35px;
-      //     line-height: normal;
-      //     margin-bottom: 25px;
-      //   }
-      // }
-      // p {
-      //   font-size: 17px;
-      //   line-height: 25px;
-      //   margin-bottom: 20px;
-      //   br {
-      //     display: none;
-      //   }
-      // }
-    }
+
     .right-imagebox {
-      // position: unset;
-      // width: 100%;
-      // float: none;
-      // transform: unset;
       img {
         max-height: unset;
         width: 100%;
@@ -161,29 +138,17 @@
       height: calc(100% - 360px);
       background-color: $body-bg;
     }
-    .ps-0 {
-      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
-    }
-    .pe-0 {
-      padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
-    }
+
     .agenda-box {
-      padding: 50px 30px;
       h3 {
         font-size: 35px;
         line-height: normal;
         margin-bottom: 25px;
       }
       p {
-        font-size: 17px;
-        line-height: 25px;
-        margin-bottom: 15px;
         br {
           display: none;
         }
-      }
-      .icon-flex {
-        margin-bottom: 20px;
       }
     }
     .mb-custom {
@@ -192,52 +157,14 @@
         margin-bottom: 40px;
       }
     }
-    .circle-shape-four {
-      position: absolute;
-      width: 360px;
-      height: 360px;
-
-      border-top: 40px solid red;
-
-      border-left: none;
-
-      border-bottom: none;
-
-      border-right: 0;
-      border-top-left-radius: 50%;
-      border-bottom-left-radius: 50%;
-
-      border-top-right-radius: 50%;
-      border-bottom-right-radius: 50%;
-      top: 50px;
-      right: 0;
-    }
-    .circle-shape-five {
-      display: none;
-    }
   }
   // agenda section ends here
 
   // blog section start from here
   .blog-main {
-    overflow-x: clip;
-    padding-top: 0;
     padding-bottom: 50px;
-    .section-titlebox {
-      h3 {
-        font-size: 35px;
-        line-height: normal;
-        margin-bottom: 25px;
-      }
-    }
+
     .blog-card {
-      margin-bottom: 30px;
-      .content-box {
-        h4 {
-          font-size: 20px;
-          line-height: 28px;
-        }
-      }
       .image-box {
         min-height: 270px;
         img {
@@ -282,7 +209,7 @@
     }
   }
   .bottom-three-section::before {
-    height: 91%;
+    height: 93%;
     top: 140px;
 
     background-position: center center;
@@ -290,7 +217,7 @@
   .bottom-three-section::after {
     top: 270px;
     width: 100%;
-    height: 68.8%;
+    height: 74.8%;
 
     background-position: center top;
     background-size: cover;
