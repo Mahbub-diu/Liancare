@@ -1,4 +1,25 @@
-@media (min-width: 1366px) and (max-width: 1440px) {
+@media (min-width: 2000px) and (max-width: 2560px) {
+  header {
+    padding: 20px 100px;
+  }
+  .velor-main::before {
+    height: 125%;
+    top: -251px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .perche-invesstire {
+    background: url(../images/2560x856.png);
+  }
+  .bottom-three-section::after {
+    background: url(../images/2560x1620.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 357px;
+    height: 1547px;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1600px) {
   .container {
     max-width: 1320px !important;
   }
@@ -23,6 +44,171 @@
   .velor-main::before {
     height: 325px;
     top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .velor-main .custom-mb {
+    margin-bottom: 30px;
+  }
+  .velor-main .valori-contentbox {
+    padding: 40px 30px;
+    box-shadow: 0px 10px 17px -2px rgba(15, 49, 73, 0.1);
+  }
+  .velor-main .valori-contentbox .valori-iconbox {
+    width: 46px;
+    height: 46px;
+    margin-bottom: 20px;
+  }
+  .velor-main .valori-contentbox .valori-iconbox img {
+    width: 30px;
+    height: 30px;
+  }
+  .perche-invesstire {
+    padding-top: 80px;
+    padding-bottom: 140px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0;
+  }
+  .perche-invesstire .left-image-box img {
+    max-width: 100%;
+    min-height: auto;
+    width: 100%;
+  }
+  .perche-invesstire .left-image-box .shape-image {
+    top: -12px;
+    right: -14px;
+  }
+  .perche-invesstire .left-image-box .bottom-textbox {
+    right: -30px;
+  }
+  .piattaforma-main {
+    padding-bottom: 200px;
+    padding-top: 150px;
+  }
+  .piattaforma-main .px-custom {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .piattaforma-main .right-imagebox img {
+    max-height: unset;
+    width: 100%;
+  }
+  .agenda-main {
+    padding-bottom: 50px;
+    padding-top: 0;
+  }
+  .agenda-main::before {
+    width: 100%;
+    height: 360px;
+    top: 102px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-position: unset;
+    background-repeat: unset;
+    background-color: #fff;
+  }
+  .agenda-main::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 360px);
+    background-color: #f7f9fc;
+  }
+  .agenda-main .agenda-box h3 {
+    font-size: 35px;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+  .agenda-main .agenda-box p br {
+    display: none;
+  }
+  .agenda-main .mb-custom {
+    margin-bottom: 70px;
+  }
+  .agenda-main .mb-custom:nth-child(2) {
+    margin-bottom: 40px;
+  }
+  .blog-main {
+    padding-bottom: 50px;
+  }
+  .blog-main .blog-card .image-box {
+    min-height: 270px;
+  }
+  .blog-main .blog-card .image-box img {
+    width: 100%;
+    height: 100%;
+  }
+  footer {
+    padding: 50px 0;
+  }
+  footer .footer-logo img {
+    max-width: 110px;
+  }
+  footer .footerdescription p {
+    margin-bottom: 20px;
+  }
+  footer .lian-associate {
+    margin-bottom: 20px;
+  }
+  footer .privecy-center {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer .contact-information {
+    margin-bottom: 20px;
+  }
+  footer .footer-social-link ul {
+    justify-content: start;
+  }
+  .bottom-three-section::before {
+    height: 93%;
+    top: 140px;
+    background-position: center center;
+  }
+  .bottom-three-section::after {
+    top: 270px;
+    width: 100%;
+    height: 74.8%;
+    background-position: center top;
+    background-size: cover;
+  }
+  .first-three-section {
+    background: url(../images/51.svg);
+    background-size: cover;
+    background-position: center bottom;
+    background-color: #f7f9fc;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .container {
+    max-width: 1320px !important;
+  }
+  header .main-header a img {
+    max-width: 125px;
+  }
+  .main-banner .right-content-box .shape-iamge {
+    height: 100%;
+  }
+  .main-banner .right-content-box .shape-iamge img {
+    height: 100%;
+  }
+  .main-banner .right-content-box img {
+    max-width: 100%;
+    min-height: unset;
+    width: 100%;
+  }
+  .velor-main {
+    padding-bottom: 0;
+    overflow-x: hidden;
+  }
+  .velor-main::before {
+    height: 374px;
+    top: -12px;
     left: 50%;
     transform: translateX(-50%);
   }

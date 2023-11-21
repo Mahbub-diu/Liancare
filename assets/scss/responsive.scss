@@ -1,10 +1,28 @@
 @import 'partials/colors';
 
-@media (min-width: 1701px) and (max-width: 1800px) {
+@media (min-width: 2000px) and (max-width: 2560px) {
+  header {
+    padding: 20px 100px;
+  }
+  .velor-main::before {
+    height: 125%;
+    top: -251px;
+    left: 50%;
+
+    transform: translateX(-50%);
+  }
+  .perche-invesstire {
+    background: url(../images/2560x856.png);
+  }
+  .bottom-three-section::after {
+    background: url(../images/2560x1620.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 357px;
+    height: 1547px;
+  }
 }
-@media (min-width: 1367px) and (max-width: 1700px) {
-}
-@media (min-width: 1366px) and (max-width: 1440px) {
+@media (min-width: 1441px) and (max-width: 1600px) {
   .container {
     max-width: 1320px !important;
   }
@@ -45,6 +63,230 @@
     &::before {
       height: 325px;
       top: 35px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .custom-mb {
+      margin-bottom: 30px;
+    }
+    .valori-contentbox {
+      padding: 40px 30px;
+      box-shadow: 0px 10px 17px -2px rgba(15, 49, 73, 0.1);
+      .valori-iconbox {
+        width: 46px;
+        height: 46px;
+        margin-bottom: 20px;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+  // velor section ends here
+
+  // purche investire section start from here
+  .perche-invesstire {
+    padding-top: 80px;
+    padding-bottom: 140px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0;
+    .left-image-box {
+      img {
+        max-width: 100%;
+        min-height: auto;
+        width: 100%;
+      }
+      .shape-image {
+        top: -12px;
+        right: -14px;
+      }
+
+      .bottom-textbox {
+        right: -30px;
+      }
+    }
+  }
+  // purche investire section ends here
+
+  // PIATTAFORMA section start from here
+  .piattaforma-main {
+    padding-bottom: 200px;
+    padding-top: 150px;
+
+    .px-custom {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .right-imagebox {
+      img {
+        max-height: unset;
+        width: 100%;
+      }
+    }
+  }
+  // PIATTAFORMA section start from here
+
+  // agenda section start from here
+  .agenda-main {
+    padding-bottom: 50px;
+    padding-top: 0;
+
+    &::before {
+      width: 100%;
+      height: 360px;
+      top: 102px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-position: unset;
+      background-repeat: unset;
+      background-color: #fff;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      width: 100%;
+      height: calc(100% - 360px);
+      background-color: $body-bg;
+    }
+
+    .agenda-box {
+      h3 {
+        font-size: 35px;
+        line-height: normal;
+        margin-bottom: 25px;
+      }
+      p {
+        br {
+          display: none;
+        }
+      }
+    }
+    .mb-custom {
+      margin-bottom: 70px;
+      &:nth-child(2) {
+        margin-bottom: 40px;
+      }
+    }
+  }
+  // agenda section ends here
+
+  // blog section start from here
+  .blog-main {
+    padding-bottom: 50px;
+
+    .blog-card {
+      .image-box {
+        min-height: 270px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  // blog section ends here
+
+  // footer section start from here
+  footer {
+    padding: 50px 0;
+    .footer-logo {
+      img {
+        max-width: 110px;
+      }
+    }
+    .footerdescription {
+      p {
+        margin-bottom: 20px;
+      }
+    }
+    .lian-associate {
+      margin-bottom: 20px;
+    }
+    .privecy-center {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    // .ps-0 {
+    //   padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    // }
+    .contact-information {
+      margin-bottom: 20px;
+    }
+    .footer-social-link {
+      ul {
+        justify-content: start;
+      }
+    }
+  }
+  .bottom-three-section::before {
+    height: 93%;
+    top: 140px;
+    background-position: center center;
+  }
+  .bottom-three-section::after {
+    top: 270px;
+    width: 100%;
+    height: 74.8%;
+
+    background-position: center top;
+    background-size: cover;
+  }
+  .first-three-section {
+    background: url(../images/51.svg);
+    background-size: cover;
+    background-position: center bottom;
+    background-color: #f7f9fc;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .container {
+    max-width: 1320px !important;
+  }
+  // header part start from here
+  header {
+    .main-header {
+      a {
+        img {
+          max-width: 125px;
+        }
+      }
+    }
+  }
+  // header part end here
+
+  // banner css start from here
+  .main-banner {
+    .right-content-box {
+      .shape-iamge {
+        height: 100%;
+        img {
+          height: 100%;
+        }
+      }
+      img {
+        max-width: 100%;
+        min-height: unset;
+        width: 100%;
+      }
+    }
+  }
+  // banner css ends here
+
+  // velor section start from here
+  .velor-main {
+    padding-bottom: 0;
+    overflow-x: hidden;
+    &::before {
+      height: 374px;
+      top: -12px;
       left: 50%;
       transform: translateX(-50%);
     }
@@ -211,7 +453,6 @@
   .bottom-three-section::before {
     height: 93%;
     top: 140px;
-
     background-position: center center;
   }
   .bottom-three-section::after {
