@@ -19,8 +19,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 $('.hamburger-icon').click(function () {
   $('.mobile-menu-link').toggleClass('show');
-//   $('.mobile-menu-link').toggleClass('d-none');
+  //   $('.mobile-menu-link').toggleClass('d-none');
 });
 $('.hamburger-icon').click(function () {
   $(this).toggleClass('sidebaractive');
 });
+
+// AOS animation initialized
+AOS.init();
