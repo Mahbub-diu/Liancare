@@ -1431,7 +1431,8 @@ footer {
   }
   .left-content-box {
     margin-top: 23px;
-
+    position: relative;
+    z-index: 9;
     h1 {
       font-family: $roboto;
       font-size: 60px;

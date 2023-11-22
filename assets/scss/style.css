@@ -1355,6 +1355,8 @@ footer .footer-social-link ul li a img {
 }
 .agendi-banner-main .left-content-box {
   margin-top: 23px;
+  position: relative;
+  z-index: 9;
 }
 .agendi-banner-main .left-content-box h1 {
   font-family: "Roboto Slab", serif;
