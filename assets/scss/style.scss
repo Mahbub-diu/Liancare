@@ -1164,8 +1164,6 @@ header {
           opacity 0s 0.35s;
         bottom: 0;
         left: -1px;
-        // border-top: 1px solid $green-blod;
-        // border-left: 1px solid $green-blod;
       }
       &::after {
         position: absolute;
@@ -1177,8 +1175,6 @@ header {
           opacity 0s 0.35s;
         top: 0;
         right: 0;
-        // border-bottom: 1px solid $green-blod;
-        // border-right: 1px solid $green-blod;
       }
       &:hover {
         color: $white;
@@ -1403,3 +1399,572 @@ footer {
     opacity: 1;
   }
 }
+
+// agendi page start from here
+.agendi-first-threesection {
+  background: url(../images/agendi/1920x1733.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 100px;
+  .agendi-inner-toptwo {
+    position: relative;
+    &::before {
+      position: absolute;
+      top: 24px;
+      left: 0;
+      width: 100%;
+      height: 90%;
+      background: url(../images/agendi/circle-1920x1390.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      content: '';
+    }
+  }
+}
+.agendi-banner-main {
+  padding: 100px 0 38px 0;
+
+  .container {
+    max-width: 1440px;
+  }
+  .left-content-box {
+    margin-top: 23px;
+
+    h1 {
+      font-family: $roboto;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 63px;
+      color: $heading-color;
+      margin-bottom: 28px;
+      strong {
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 63px;
+        font-family: $roboto;
+      }
+      span {
+        color: $green-blod;
+      }
+    }
+    p {
+      color: $text-color;
+      font-family: $nunito;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      margin-bottom: 16px;
+      strong {
+        font-weight: 700;
+      }
+    }
+    p:nth-child(n + 3) {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      font-family: $nunito;
+    }
+  }
+
+  .right-content-box {
+    position: relative;
+
+    text-align: center;
+
+    img {
+      max-width: 100%;
+    }
+
+    .top-text-box {
+      width: 227px;
+      height: 73px;
+      border-radius: 8px;
+      background: #fff;
+      position: absolute;
+      top: 247px;
+      right: -30px;
+      z-index: 9;
+
+      padding: 28px 40px 29px 39px;
+      color: $text-color;
+      font-family: $nunito;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 16px;
+      text-transform: uppercase;
+      .center-textbox-icon {
+        width: 48px;
+        height: 48px;
+        padding: 8px;
+        background: $green-blod;
+        border-radius: 8px;
+        right: 63px;
+        bottom: 55px;
+        position: absolute;
+        img {
+          min-height: unset;
+          border-radius: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+    .right-text-box {
+      width: 225px;
+      height: 96px;
+      border-radius: 8px;
+      background: #fff;
+      position: absolute;
+      right: -20px;
+      bottom: 123px;
+      z-index: 9;
+      padding: 32px 40px 24px 36px;
+      color: $green-blod;
+      font-family: $nunito;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 16px;
+
+      strong {
+        color: $text-color;
+        font-size: 20px;
+        line-height: 24px;
+      }
+      .botttom-textbox-icon {
+        width: 48px;
+        height: 48px;
+        padding: 8px;
+        background: $btn-magenta;
+        border-radius: 8px;
+        left: -10px;
+        top: -16px;
+        position: absolute;
+        img {
+          min-height: unset;
+          border-radius: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+        }
+      }
+    }
+    .bottom-text-box {
+      width: 227px;
+      height: 73px;
+      border-radius: 8px;
+      background: #fff;
+      position: absolute;
+      bottom: 109px;
+      left: -30px;
+      z-index: 9;
+
+      padding: 28px 40px 29px 39px;
+      color: $text-color;
+      font-family: $nunito;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 16px;
+      text-transform: uppercase;
+      .center-textbox-icon {
+        width: 48px;
+        height: 48px;
+        padding: 8px;
+        background: $green-blod;
+        border-radius: 8px;
+        right: 47px;
+        bottom: -32px;
+        position: absolute;
+        img {
+          min-height: unset;
+          border-radius: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+  }
+}
+.come-funizona-main {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  position: relative;
+  .container-fluid {
+    max-width: 95%;
+  }
+  .section-titlebox {
+    p {
+      @include section-subtitle;
+      margin-bottom: 23px;
+    }
+  }
+  .funizona-grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 14px;
+    .funizona-single-box {
+      padding: 44px 24px;
+      background: #fff;
+      border-radius: 4px 40px;
+      box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
+      height: 100%;
+      position: relative;
+      z-index: 9;
+      transition: 0.5s all ease-in-out;
+      .sl-box {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        background: #dff1c7;
+        padding: 8px;
+        margin-bottom: 26px;
+        transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+        transform: translateY(0px);
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        text-align: center;
+        color: $green-blod;
+        font-family: $roboto;
+      }
+      .content-box {
+        transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+        transform: translateY(0px);
+        h3 {
+          font-size: 26px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 32px;
+          color: $heading-color;
+          font-family: $roboto;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+          font-family: $nunito;
+          margin: 0;
+        }
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px 40px;
+        top: 0;
+        left: 0;
+        background: linear-gradient(145deg, #77ac2c, #77ac2c);
+        opacity: 0;
+      }
+      &:hover {
+        &::before {
+          opacity: 1;
+        }
+        .sl-box {
+          transform: translateY(-20px);
+          -webkit-transform: translateY(-20px);
+          -moz-transform: translateY(-20px);
+          -ms-transform: translateY(-20px);
+          -o-transform: translateY(-20px);
+          background: #fff;
+        }
+        .content-box {
+          transform: translateY(-20px);
+          -webkit-transform: translateY(-20px);
+          -moz-transform: translateY(-20px);
+          -ms-transform: translateY(-20px);
+          -o-transform: translateY(-20px);
+          h3 {
+            color: #fff;
+          }
+          p {
+            color: #fff;
+          }
+        }
+      }
+    }
+    .funizona-single-box:nth-child(even) {
+      margin-top: 32px;
+    }
+  }
+}
+
+.agendi-piattofarma-main {
+  padding-top: 71px;
+  padding-bottom: 71px;
+  background: #fff;
+
+  .section-titlebox {
+    text-align: center;
+    p {
+      @include section-subtitle;
+      margin-bottom: 8px;
+    }
+    h3 {
+      @include section-title-h3;
+      margin-bottom: 40px;
+      strong {
+        @include section-title-strong;
+      }
+    }
+  }
+  .agendi-piattofarma-box {
+    @include agendi-piattofarma-box;
+    position: relative;
+    .icon-box {
+      @include iconbox-size-48;
+      @include transform-zero-animation;
+      margin-bottom: 31px;
+      img {
+        @include icon-32by32;
+      }
+    }
+    .content-box {
+      @include transform-zero-animation;
+      h3 {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        font-family: $roboto;
+        margin-bottom: 24px;
+        color: $heading-color;
+      }
+      p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 24px;
+        color: $text-color;
+        font-family: $nunito;
+      }
+      ul {
+        li {
+          font-family: $nunito;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+          color: $text-color;
+          margin-bottom: 8px;
+          display: flex;
+
+          align-items: baseline;
+          gap: 12px;
+          i {
+            color: $green-blod;
+          }
+        }
+      }
+    }
+    &::before {
+      @include box-hover-animation-before;
+      background: linear-gradient(145deg, #77ac2c, #77ac2c);
+      border-radius: 60px 10px;
+    }
+    &:hover {
+      &::before {
+        @include onbox-hover-animation-before;
+      }
+      .icon-box {
+        @include transform-tweenty-animation;
+        background: #fff;
+      }
+      .content-box {
+        @include transform-tweenty-animation;
+        h3 {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+        ul {
+          li {
+            color: #fff;
+            i {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .agendi-piattofarma-box.special {
+    background: $green-blod;
+    .icon-box {
+      background: #fff;
+    }
+    .content-box {
+      h3 {
+        color: #fff;
+      }
+      p {
+        color: #fff;
+      }
+      ul {
+        li {
+          color: #fff;
+          i {
+            color: #fff;
+          }
+        }
+      }
+    }
+    &::before {
+      background: linear-gradient(145deg, $btn-magenta, $btn-magenta);
+    }
+  }
+  .funziona-btn {
+    margin-top: 55px;
+    text-align: center;
+    a {
+      width: 286px;
+      padding: 20px 52px;
+      border-radius: 20px 2px;
+      background: #fff;
+      box-shadow: 0px 4px 40px -2px rgba(15, 49, 73, 0.1);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 22px;
+      font-family: $nunito;
+      color: $text-color;
+      transition: 0.3s ease-out;
+      display: block;
+      margin: 0px auto;
+      i {
+        margin-left: 10px;
+        color: $green-blod;
+      }
+
+      &:hover {
+        background: $green-blod;
+        color: #fff;
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.agendi-bottom-four {
+  margin-bottom: 300px;
+  background: url(../images/agendi/agendi-bottom-four.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.audit-care-main {
+  // padding-top: 147px;
+  padding-top: 76px;
+  .section-titlebox {
+    padding-left: 100px;
+    p {
+      @include section-subtitle;
+      margin-bottom: 17px;
+    }
+  }
+  .audit-tab-box {
+    padding-left: 50px;
+    ul.nav-tabs {
+      border: none;
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        flex-basis: 100%;
+        margin-bottom: 8px;
+        button {
+          padding: 20px 52px;
+          border-radius: 20px 2px;
+          box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
+          background: #fff;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 22px;
+          font-family: $nunito;
+          color: $text-color;
+          border: none;
+          width: 95%;
+          text-align: left;
+          margin: 0;
+          transition: 0.3s;
+          -webkit-transition: 0.3s;
+          -moz-transition: 0.3s;
+          -ms-transition: 0.3s;
+          -o-transition: 0.3s;
+          &:hover {
+            background: $green-blod;
+            width: 100%;
+            color: $white;
+          }
+        }
+        button.active {
+          border: none;
+          background: $green-blod;
+          color: $white;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .audit-tab-contents {
+    .content-box {
+      h3 {
+        font-family: $roboto;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 55px;
+        color: $heading-color;
+        margin-bottom: 32px;
+        strong {
+          font-weight: 900;
+        }
+      }
+      p {
+        font-family: $nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+// agendi page end here

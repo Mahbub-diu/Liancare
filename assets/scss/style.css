@@ -1323,4 +1323,594 @@ footer .footer-social-link ul li a img {
   to {
     opacity: 1;
   }
+}
+.agendi-first-threesection {
+  background: url(../images/agendi/1920x1733.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 100px;
+}
+.agendi-first-threesection .agendi-inner-toptwo {
+  position: relative;
+}
+.agendi-first-threesection .agendi-inner-toptwo::before {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background: url(../images/agendi/circle-1920x1390.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.agendi-banner-main {
+  padding: 100px 0 38px 0;
+}
+.agendi-banner-main .container {
+  max-width: 1440px;
+}
+.agendi-banner-main .left-content-box {
+  margin-top: 23px;
+}
+.agendi-banner-main .left-content-box h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 63px;
+  color: #121212;
+  margin-bottom: 28px;
+}
+.agendi-banner-main .left-content-box h1 strong {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 63px;
+  font-family: "Roboto Slab", serif;
+}
+.agendi-banner-main .left-content-box h1 span {
+  color: #77ac2c;
+}
+.agendi-banner-main .left-content-box p {
+  color: #121212;
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+.agendi-banner-main .left-content-box p strong {
+  font-weight: 700;
+}
+.agendi-banner-main .left-content-box p:nth-child(n+3) {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Nunito", sans-serif;
+}
+.agendi-banner-main .right-content-box {
+  position: relative;
+  text-align: center;
+}
+.agendi-banner-main .right-content-box img {
+  max-width: 100%;
+}
+.agendi-banner-main .right-content-box .top-text-box {
+  width: 227px;
+  height: 73px;
+  border-radius: 8px;
+  background: #fff;
+  position: absolute;
+  top: 247px;
+  right: -30px;
+  z-index: 9;
+  padding: 28px 40px 29px 39px;
+  color: #121212;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.agendi-banner-main .right-content-box .top-text-box .center-textbox-icon {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  background: #77ac2c;
+  border-radius: 8px;
+  right: 63px;
+  bottom: 55px;
+  position: absolute;
+}
+.agendi-banner-main .right-content-box .top-text-box .center-textbox-icon img {
+  min-height: unset;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  width: 32px;
+  height: 32px;
+}
+.agendi-banner-main .right-content-box .right-text-box {
+  width: 225px;
+  height: 96px;
+  border-radius: 8px;
+  background: #fff;
+  position: absolute;
+  right: -20px;
+  bottom: 123px;
+  z-index: 9;
+  padding: 32px 40px 24px 36px;
+  color: #77ac2c;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.agendi-banner-main .right-content-box .right-text-box strong {
+  color: #121212;
+  font-size: 20px;
+  line-height: 24px;
+}
+.agendi-banner-main .right-content-box .right-text-box .botttom-textbox-icon {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  background: #bb2749;
+  border-radius: 8px;
+  left: -10px;
+  top: -16px;
+  position: absolute;
+}
+.agendi-banner-main .right-content-box .right-text-box .botttom-textbox-icon img {
+  min-height: unset;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.agendi-banner-main .right-content-box .bottom-text-box {
+  width: 227px;
+  height: 73px;
+  border-radius: 8px;
+  background: #fff;
+  position: absolute;
+  bottom: 109px;
+  left: -30px;
+  z-index: 9;
+  padding: 28px 40px 29px 39px;
+  color: #121212;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.agendi-banner-main .right-content-box .bottom-text-box .center-textbox-icon {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  background: #77ac2c;
+  border-radius: 8px;
+  right: 47px;
+  bottom: -32px;
+  position: absolute;
+}
+.agendi-banner-main .right-content-box .bottom-text-box .center-textbox-icon img {
+  min-height: unset;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.come-funizona-main {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  position: relative;
+}
+.come-funizona-main .container-fluid {
+  max-width: 95%;
+}
+.come-funizona-main .section-titlebox p {
+  color: #77ac2c;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+.come-funizona-main .funizona-grid-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 14px;
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box {
+  padding: 44px 24px;
+  background: #fff;
+  border-radius: 4px 40px;
+  box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
+  height: 100%;
+  position: relative;
+  z-index: 9;
+  transition: 0.5s all ease-in-out;
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box .sl-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: #dff1c7;
+  padding: 8px;
+  margin-bottom: 26px;
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+  transform: translateY(0px);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  color: #77ac2c;
+  font-family: "Roboto Slab", serif;
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box .content-box {
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+  transform: translateY(0px);
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box .content-box h3 {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  color: #121212;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 10px;
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box .content-box p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box::before {
+  content: "";
+  position: absolute;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px 40px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(145deg, #77ac2c, #77ac2c);
+  opacity: 0;
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box:hover::before {
+  opacity: 1;
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box:hover .sl-box {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  background: #fff;
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box:hover .content-box {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box:hover .content-box h3 {
+  color: #fff;
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box:hover .content-box p {
+  color: #fff;
+}
+.come-funizona-main .funizona-grid-main .funizona-single-box:nth-child(even) {
+  margin-top: 32px;
+}
+
+.agendi-piattofarma-main {
+  padding-top: 71px;
+  padding-bottom: 71px;
+  background: #fff;
+}
+.agendi-piattofarma-main .section-titlebox {
+  text-align: center;
+}
+.agendi-piattofarma-main .section-titlebox p {
+  color: #77ac2c;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.agendi-piattofarma-main .section-titlebox h3 {
+  color: #121212;
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 55px;
+  margin-bottom: 40px;
+}
+.agendi-piattofarma-main .section-titlebox h3 strong {
+  font-weight: 900;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box {
+  border-radius: 60px 10px;
+  padding: 59px 44px 80px 44px;
+  box-shadow: 0px 30px 80px -2px rgba(19, 40, 55, 0.15);
+  position: relative;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box .icon-box {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background: #dff1c7;
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+  transform: translateY(0px);
+  margin-bottom: 31px;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box .icon-box img {
+  width: 32px;
+  height: 32px;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box .content-box {
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+  transform: translateY(0px);
+}
+.agendi-piattofarma-main .agendi-piattofarma-box .content-box h3 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 24px;
+  color: #121212;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box .content-box p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: #121212;
+  font-family: "Nunito", sans-serif;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box .content-box ul li {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #121212;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box .content-box ul li i {
+  color: #77ac2c;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box::before {
+  content: "";
+  position: absolute;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: linear-gradient(145deg, #77ac2c, #77ac2c);
+  border-radius: 60px 10px;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box:hover::before {
+  opacity: 1;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box:hover .icon-box {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  background: #fff;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box:hover .content-box {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+}
+.agendi-piattofarma-main .agendi-piattofarma-box:hover .content-box h3 {
+  color: #fff;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box:hover .content-box p {
+  color: #fff;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box:hover .content-box ul li {
+  color: #fff;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box:hover .content-box ul li i {
+  color: #fff;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box.special {
+  background: #77ac2c;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box.special .icon-box {
+  background: #fff;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box.special .content-box h3 {
+  color: #fff;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box.special .content-box p {
+  color: #fff;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box.special .content-box ul li {
+  color: #fff;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box.special .content-box ul li i {
+  color: #fff;
+}
+.agendi-piattofarma-main .agendi-piattofarma-box.special::before {
+  background: linear-gradient(145deg, #bb2749, #bb2749);
+}
+.agendi-piattofarma-main .funziona-btn {
+  margin-top: 55px;
+  text-align: center;
+}
+.agendi-piattofarma-main .funziona-btn a {
+  width: 286px;
+  padding: 20px 52px;
+  border-radius: 20px 2px;
+  background: #fff;
+  box-shadow: 0px 4px 40px -2px rgba(15, 49, 73, 0.1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  font-family: "Nunito", sans-serif;
+  color: #121212;
+  transition: 0.3s ease-out;
+  display: block;
+  margin: 0px auto;
+}
+.agendi-piattofarma-main .funziona-btn a i {
+  margin-left: 10px;
+  color: #77ac2c;
+}
+.agendi-piattofarma-main .funziona-btn a:hover {
+  background: #77ac2c;
+  color: #fff;
+}
+.agendi-piattofarma-main .funziona-btn a:hover i {
+  color: #fff;
+}
+
+.agendi-bottom-four {
+  margin-bottom: 300px;
+  background: url(../images/agendi/agendi-bottom-four.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.audit-care-main {
+  padding-top: 76px;
+}
+.audit-care-main .section-titlebox {
+  padding-left: 100px;
+}
+.audit-care-main .section-titlebox p {
+  color: #77ac2c;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+.audit-care-main .audit-tab-box {
+  padding-left: 50px;
+}
+.audit-care-main .audit-tab-box ul.nav-tabs {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.audit-care-main .audit-tab-box ul.nav-tabs li {
+  flex-basis: 100%;
+  margin-bottom: 8px;
+}
+.audit-care-main .audit-tab-box ul.nav-tabs li button {
+  padding: 20px 52px;
+  border-radius: 20px 2px;
+  box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
+  background: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  font-family: "Nunito", sans-serif;
+  color: #121212;
+  border: none;
+  width: 95%;
+  text-align: left;
+  margin: 0;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.audit-care-main .audit-tab-box ul.nav-tabs li button:hover {
+  background: #77ac2c;
+  width: 100%;
+  color: #fff;
+}
+.audit-care-main .audit-tab-box ul.nav-tabs li button.active {
+  border: none;
+  background: #77ac2c;
+  color: #fff;
+  width: 100%;
+}
+.audit-care-main .audit-tab-contents .content-box h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  color: #121212;
+  margin-bottom: 32px;
+}
+.audit-care-main .audit-tab-contents .content-box h3 strong {
+  font-weight: 900;
+}
+.audit-care-main .audit-tab-contents .content-box p {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 25px;
 }/*# sourceMappingURL=style.css.map */
