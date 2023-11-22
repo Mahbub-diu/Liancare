@@ -3655,4 +3655,31 @@
     margin-top: 25px;
     padding-bottom: 25px;
   }
+  .audit-care-main {
+    padding-top: 50px;
+  }
+  .audit-care-main .section-titlebox {
+    padding-left: 0px;
+  }
+  .audit-care-main .audit-tab-box {
+    padding-left: 0px;
+  }
+  .audit-care-main .audit-tab-box ul.nav-tabs li button {
+    padding: 15px 30px;
+  }
+  .audit-care-main .audit-tab-contents {
+    margin-top: 50px;
+  }
+  .audit-care-main .audit-tab-contents .content-box h3 {
+    font-size: 25px;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+  .audit-care-main .audit-tab-contents .content-box p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .agendi-bottom-four .perche-invesstire .right-contentbox {
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=responsive.css.map */
