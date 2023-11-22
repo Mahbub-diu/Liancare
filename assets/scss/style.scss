@@ -1913,6 +1913,21 @@ footer {
     background-size: cover;
     // background-color: red;
   }
+  .agendi-bottom-inner {
+    position: relative;
+    &::before {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      height: 78%;
+      background: url(../images/agendi/bottom-three-inner.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      content: '';
+    }
+  }
 }
 
 .audit-care-main {
