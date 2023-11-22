@@ -1878,17 +1878,48 @@ footer {
 }
 
 .agendi-bottom-four {
-  margin-bottom: 300px;
-  background: url(../images/agendi/agendi-bottom-four.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 500px;
+  position: relative;
+  .perche-invesstire {
+    margin-bottom: 0;
+    background: unset;
+    padding-bottom: 126px;
+    .left-image-box {
+      .top-textbox {
+        .toptextbox-icon {
+          left: 17px;
+          top: -35px;
+        }
+      }
+      .bottom-textbox {
+        left: 50%;
+        bottom: -59px;
+        transform: translateX(-50%);
+      }
+    }
+  }
+  footer {
+    border-top: 1px solid #d9d9dd;
+  }
+  &::before {
+    position: absolute;
+    top: -71px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 71px);
+    content: '';
+    background: url(../images/agendi/agendi-bottom-four.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: red;
+  }
 }
 
 .audit-care-main {
   // padding-top: 147px;
   padding-top: 76px;
+  position: relative;
+  z-index: 9;
   .section-titlebox {
     padding-left: 100px;
     p {
@@ -1967,4 +1998,120 @@ footer {
   }
 }
 
+.agendi-contact-form {
+  padding-bottom: 117px;
+  position: relative;
+  z-index: 9;
+
+  .contact-bg {
+    background: #77ac2c;
+    padding-top: 72px;
+    padding-bottom: 71px;
+    border-radius: 60px 10px;
+    .content-box {
+      h3 {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        color: #fff;
+        font-family: $roboto;
+        margin-bottom: 16px;
+      }
+      p {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        font-family: $nunito;
+        color: #fff;
+      }
+      p:nth-child(3) {
+        font-family: $nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        color: #fff;
+      }
+    }
+    form {
+      input[type='text'],
+      input[type='email'],
+      textarea {
+        background: transparent;
+        margin-bottom: 12px;
+        border-radius: 8px;
+        padding: 12px 20px;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        font-family: $nunito;
+        color: #fff;
+        border: 1px solid #f7f9fc;
+        &:focus {
+          box-shadow: none;
+          outline: none;
+        }
+      }
+      ::placeholder {
+        color: #fff;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        font-family: $nunito;
+      }
+      input[type='checkbox'] {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        border-width: 2px;
+        &:focus {
+          box-shadow: none;
+          outline: none;
+        }
+      }
+      .form-check-input:checked {
+        background-color: $green-blod;
+        border-color: #fff;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+      }
+      label {
+        color: #fff;
+        font-family: $nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        position: relative;
+        top: 4px;
+      }
+      .submit-btn {
+        margin-top: 20px;
+        width: 100%;
+        padding: 14px 24px 12px 24px;
+        box-shadow: 0px 8px 30px 0px rgba(19, 40, 55, 0.13);
+        background: #fff;
+        border-radius: 8px;
+        font-family: $nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        color: $green-blod;
+      }
+    }
+    .form-control.is-invalid,
+    .was-validated .form-control:invalid {
+      border-color: $btn-magenta !important;
+    }
+  }
+}
 // agendi page end here

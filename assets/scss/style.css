@@ -1826,16 +1826,42 @@ footer .footer-social-link ul li a img {
 }
 
 .agendi-bottom-four {
-  margin-bottom: 300px;
+  position: relative;
+}
+.agendi-bottom-four .perche-invesstire {
+  margin-bottom: 0;
+  background: unset;
+  padding-bottom: 126px;
+}
+.agendi-bottom-four .perche-invesstire .left-image-box .top-textbox .toptextbox-icon {
+  left: 17px;
+  top: -35px;
+}
+.agendi-bottom-four .perche-invesstire .left-image-box .bottom-textbox {
+  left: 50%;
+  bottom: -59px;
+  transform: translateX(-50%);
+}
+.agendi-bottom-four footer {
+  border-top: 1px solid #d9d9dd;
+}
+.agendi-bottom-four::before {
+  position: absolute;
+  top: -71px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 71px);
+  content: "";
   background: url(../images/agendi/agendi-bottom-four.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500px;
 }
 
 .audit-care-main {
   padding-top: 76px;
+  position: relative;
+  z-index: 9;
 }
 .audit-care-main .section-titlebox {
   padding-left: 100px;
@@ -1913,4 +1939,125 @@ footer .footer-social-link ul li a img {
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 25px;
+}
+
+.agendi-contact-form {
+  padding-bottom: 117px;
+  position: relative;
+  z-index: 9;
+}
+.agendi-contact-form .contact-bg {
+  background: #77ac2c;
+  padding-top: 72px;
+  padding-bottom: 71px;
+  border-radius: 60px 10px;
+}
+.agendi-contact-form .contact-bg .content-box h3 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 16px;
+}
+.agendi-contact-form .contact-bg .content-box p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+}
+.agendi-contact-form .contact-bg .content-box p:nth-child(3) {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
+.agendi-contact-form .contact-bg form input[type=text],
+.agendi-contact-form .contact-bg form input[type=email],
+.agendi-contact-form .contact-bg form textarea {
+  background: transparent;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  border: 1px solid #f7f9fc;
+}
+.agendi-contact-form .contact-bg form input[type=text]:focus,
+.agendi-contact-form .contact-bg form input[type=email]:focus,
+.agendi-contact-form .contact-bg form textarea:focus {
+  box-shadow: none;
+  outline: none;
+}
+.agendi-contact-form .contact-bg form ::-moz-placeholder {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Nunito", sans-serif;
+}
+.agendi-contact-form .contact-bg form ::placeholder {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Nunito", sans-serif;
+}
+.agendi-contact-form .contact-bg form input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  border-width: 2px;
+}
+.agendi-contact-form .contact-bg form input[type=checkbox]:focus {
+  box-shadow: none;
+  outline: none;
+}
+.agendi-contact-form .contact-bg form .form-check-input:checked {
+  background-color: #77ac2c;
+  border-color: #fff;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.agendi-contact-form .contact-bg form label {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  position: relative;
+  top: 4px;
+}
+.agendi-contact-form .contact-bg form .submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px 24px 12px 24px;
+  box-shadow: 0px 8px 30px 0px rgba(19, 40, 55, 0.13);
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  color: #77ac2c;
+}
+.agendi-contact-form .contact-bg .form-control.is-invalid,
+.agendi-contact-form .contact-bg .was-validated .form-control:invalid {
+  border-color: #bb2749 !important;
 }/*# sourceMappingURL=style.css.map */
