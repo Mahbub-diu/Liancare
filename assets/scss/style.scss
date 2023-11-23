@@ -2135,22 +2135,26 @@ footer {
 // caregiver page start from here
 
 .caregiver-first-threesection {
+  background: url(../images/caregiver/1920x2040.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   .agendi-inner-toptwo {
     &::before {
-      // position: absolute;
-      // top: 24px;
-      // left: 0;
-      // width: 100%;
-      // height: 90%;
-      // background: url(../images/agendi/circle-1920x1390.png);
-      // background-size: cover;
-      // background-repeat: no-repeat;
-      // background-position: center center;
-      // content: "";
-      display: none;
+      position: absolute;
+      top: 94px;
+      left: 0;
+      width: 100%;
+      height: 73%;
+      background: url(../images/caregiver/1920x1285.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      content: '';
     }
   }
   .caregiver-banner-main {
+    padding: 100px 0 0 0;
     .right-content-box {
       .top-text-box {
         width: 165px;
@@ -2215,6 +2219,8 @@ footer {
   }
 }
 .care-giver-purche {
+  padding-bottom: 125px;
+  background: unset;
   .left-image-box {
     padding-left: 10px;
     width: 80%;
@@ -2349,5 +2355,146 @@ footer {
     }
   }
 }
+.testimonial-main {
+  // padding-top: 146px;
+  padding-top: 75px;
+  padding-bottom: 100px;
+  .section-titlebox {
+    text-align: center;
+    p {
+      color: $btn-magenta;
+      margin-bottom: 40px;
+    }
+  }
+  .testimonial-slider-parent {
+    .testimonial-slider {
+      .swiper-slide {
+        padding: 40px 35px;
+        border-radius: 50px 5px;
+        background: #fff;
+        position: relative;
+        margin-bottom: 50px;
+        box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
+        .slider-content {
+          min-height: 150px;
+          h4 {
+            color: $heading-color;
+            font-family: $roboto;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 32px;
+            margin-bottom: 10px;
+            text-align: left;
+          }
+          p {
+            color: $text-color;
+            font-family: $nunito;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            margin-bottom: 24px;
+            text-align: left;
+          }
+          h5 {
+            color: #ffd2dd;
+            font-family: $nunito;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            margin: 0;
+            text-align: left;
+            position: absolute;
+            bottom: 36px;
+            left: 38px;
+          }
+        }
+      }
+      .swiper-pagination-bullet-active {
+        background: $btn-magenta;
+      }
+    }
+  }
+}
+.Compila-main {
+  margin-bottom: 150px;
+  .compaila-bg {
+    padding: 72px 100px;
+    border-radius: 60px 10px;
+    box-shadow: 0px 30px 80px -2px rgba(19, 40, 55, 0.15);
+    background: $btn-magenta;
+    position: relative;
+    z-index: 9;
+    .row {
+      align-items: center;
+    }
+    .content-box {
+      h3 {
+        color: #fff;
+        font-family: $roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        margin-bottom: 16px;
+      }
+      p {
+        color: #fff;
+        font-family: $nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 144.444% */
+      }
+    }
+    button {
+      width: 100%;
+      padding: 14px 24px 12px 24px;
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0px 8px 30px 0px rgba(19, 40, 55, 0.13);
+      border: none;
+      color: $btn-magenta;
+      font-family: $nunito;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 22px;
+    }
+  }
+}
 
+.caregive-bottom-four {
+  &::before {
+    position: absolute;
+    top: -71px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 71px);
+    content: '';
+    background: url(../images/caregiver/1920x1370.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .agendi-bottom-inner {
+    &::before {
+      display: none;
+    }
+  }
+  &::after {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 100px);
+    content: '';
+    background: url(../images/caregiver/bottom-circle2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 // caregiver page end here

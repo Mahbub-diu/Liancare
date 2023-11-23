@@ -1,15 +1,20 @@
-// .circle-shape-one {
-//   display: none;
-// }
-// .circle-shape-two {
-//   display: none;
-// }
-// .circle-shape-three {
-//   display: none;
-// }
-// .circle-shape-four {
-//   display: none;
-// }
-// .circle-shape-footer {
-//   display: none;
-// }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

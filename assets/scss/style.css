@@ -1,3 +1,25 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
@@ -2079,8 +2101,26 @@ footer .footer-social-link ul li a img {
   border-color: #bb2749 !important;
 }
 
+.caregiver-first-threesection {
+  background: url(../images/caregiver/1920x2040.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 .caregiver-first-threesection .agendi-inner-toptwo::before {
-  display: none;
+  position: absolute;
+  top: 94px;
+  left: 0;
+  width: 100%;
+  height: 73%;
+  background: url(../images/caregiver/1920x1285.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+.caregiver-first-threesection .caregiver-banner-main {
+  padding: 100px 0 0 0;
 }
 .caregiver-first-threesection .caregiver-banner-main .right-content-box .top-text-box {
   width: 165px;
@@ -2126,6 +2166,10 @@ footer .footer-social-link ul li a img {
   background: #bb2749;
 }
 
+.care-giver-purche {
+  padding-bottom: 125px;
+  background: unset;
+}
 .care-giver-purche .left-image-box {
   padding-left: 10px;
   width: 80%;
@@ -2263,4 +2307,137 @@ footer .footer-social-link ul li a img {
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
+}
+
+.testimonial-main {
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+.testimonial-main .section-titlebox {
+  text-align: center;
+}
+.testimonial-main .section-titlebox p {
+  color: #bb2749;
+  margin-bottom: 40px;
+}
+.testimonial-main .testimonial-slider-parent .testimonial-slider .swiper-slide {
+  padding: 40px 35px;
+  border-radius: 50px 5px;
+  background: #fff;
+  position: relative;
+  margin-bottom: 50px;
+  box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
+}
+.testimonial-main .testimonial-slider-parent .testimonial-slider .swiper-slide .slider-content {
+  min-height: 150px;
+}
+.testimonial-main .testimonial-slider-parent .testimonial-slider .swiper-slide .slider-content h4 {
+  color: #121212;
+  font-family: "Roboto Slab", serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.testimonial-main .testimonial-slider-parent .testimonial-slider .swiper-slide .slider-content p {
+  color: #121212;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+.testimonial-main .testimonial-slider-parent .testimonial-slider .swiper-slide .slider-content h5 {
+  color: #ffd2dd;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0;
+  text-align: left;
+  position: absolute;
+  bottom: 36px;
+  left: 38px;
+}
+.testimonial-main .testimonial-slider-parent .testimonial-slider .swiper-pagination-bullet-active {
+  background: #bb2749;
+}
+
+.Compila-main {
+  margin-bottom: 150px;
+}
+.Compila-main .compaila-bg {
+  padding: 72px 100px;
+  border-radius: 60px 10px;
+  box-shadow: 0px 30px 80px -2px rgba(19, 40, 55, 0.15);
+  background: #bb2749;
+  position: relative;
+  z-index: 9;
+}
+.Compila-main .compaila-bg .row {
+  align-items: center;
+}
+.Compila-main .compaila-bg .content-box h3 {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px;
+  margin-bottom: 16px;
+}
+.Compila-main .compaila-bg .content-box p {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+.Compila-main .compaila-bg button {
+  width: 100%;
+  padding: 14px 24px 12px 24px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 8px 30px 0px rgba(19, 40, 55, 0.13);
+  border: none;
+  color: #bb2749;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.caregive-bottom-four::before {
+  position: absolute;
+  top: -71px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 71px);
+  content: "";
+  background: url(../images/caregiver/1920x1370.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caregive-bottom-four .agendi-bottom-inner::before {
+  display: none;
+}
+.caregive-bottom-four::after {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 100px);
+  content: "";
+  background: url(../images/caregiver/bottom-circle2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */

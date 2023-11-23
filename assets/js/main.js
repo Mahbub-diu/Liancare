@@ -51,3 +51,38 @@ AOS.init();
     );
   });
 })();
+
+// caregiver testimonial slider js start from here
+
+var swiper = new Swiper('.testimonial-slider', {
+  loop: 'true',
+  spaceBetween: 30,
+  speed: 500,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    1200: {
+      slidesPerView: 3,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+// Pause autoplay on hover
+$('.testimonial-slider').hover(
+  function () {
+    swiper.autoplay.stop();
+  },
+  function () {
+    swiper.autoplay.start();
+  }
+);
+// caregiver testimonial slider end here
