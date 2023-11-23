@@ -906,6 +906,242 @@
     background-position: center bottom;
     background-color: #f7f9fc;
   }
+
+  // agendi page start from here
+
+  .agendi-first-threesection {
+    margin-bottom: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    .agendi-inner-toptwo {
+      &::before {
+        height: 65%;
+      }
+    }
+  }
+  .agendi-banner-main {
+    padding: 30px 0 38px 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .left-content-box {
+      margin-top: 0;
+      margin-bottom: 25px;
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 25px;
+        strong {
+          font-size: 40px;
+          line-height: 50px;
+        }
+      }
+      p {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 15px;
+      }
+      p:nth-child(n + 2) {
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+    .right-content-box {
+      .top-text-box {
+        right: -14px;
+        height: 50px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        line-height: 23px;
+        width: 180px;
+        top: 180px;
+        .center-textbox-icon {
+          top: -26px;
+          width: 40px;
+          height: 40px;
+          right: 34px;
+          img {
+            width: 32px;
+            height: unset;
+          }
+        }
+      }
+      .bottom-text-box {
+        width: 162px;
+        height: 50px;
+        bottom: 65px;
+        left: -30px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        .center-textbox-icon {
+          width: 40px;
+          height: 40px;
+          right: 47px;
+          bottom: -32px;
+          img {
+            width: 30px;
+            height: 24px;
+          }
+        }
+      }
+      .right-text-box {
+        width: 204px;
+        height: 70px;
+
+        right: 0;
+        bottom: 123px;
+
+        padding: 15px 25px;
+
+        font-size: 14px;
+        strong {
+          font-size: 16px;
+        }
+        .botttom-textbox-icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .come-funizona-main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    .container-fluid {
+      max-width: 100%;
+    }
+    .funizona-grid-main {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      .funizona-single-box {
+        &:nth-child(even) {
+          margin-top: 0;
+        }
+        .sl-box {
+          margin-bottom: 10px;
+          font-size: 22px;
+        }
+        .content-box {
+          h3 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+  .agendi-piattofarma-main {
+    padding-top: 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .pe-0 {
+      padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .section-titlebox {
+      h3 {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 25px;
+      }
+    }
+    .agendi-piattofarma-box {
+      margin-bottom: 20px;
+      padding: 40px 25px 60px 25px;
+      .icon-box {
+        margin-bottom: 20px;
+      }
+      .content-box {
+        h3 {
+          font-size: 30px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        ul {
+          li {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .funziona-btn {
+      margin-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+  .audit-care-main {
+    padding-top: 76px;
+    .section-titlebox {
+      padding-left: 0px;
+    }
+    .audit-tab-box {
+      padding-left: 0px;
+      ul {
+        &.nav-tabs {
+          li {
+            button {
+              padding: 15px 30px;
+            }
+          }
+        }
+      }
+    }
+    .audit-tab-contents {
+      // margin-top: 50px;
+      .content-box {
+        h3 {
+          font-size: 35px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 17px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .agendi-bottom-four {
+    .perche-invesstire {
+      .right-contentbox {
+        margin-top: 0px;
+      }
+      .left-image-box {
+        margin-top: 50px;
+      }
+    }
+    .agendi-bottom-inner {
+      &::before {
+        height: 54%;
+      }
+    }
+  }
+  .agendi-contact-form {
+    padding-bottom: 50px;
+    .contact-bg {
+      .content-box {
+        h3 {
+          font-size: 30px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        p:nth-child(3) {
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  // agendi page start from here
 }
 @media (min-width: 1025px) and (max-width: 1240px) {
   // header part start from here
@@ -1086,7 +1322,7 @@
       margin-top: 50px;
       .section-titlebox {
         h3 {
-          font-size: 25px;
+          font-size: 30px;
           line-height: normal;
           margin-bottom: 25px;
         }
@@ -1306,6 +1542,242 @@
     background-position: center bottom;
     background-color: #f7f9fc;
   }
+
+  // agendi page start from here
+
+  .agendi-first-threesection {
+    margin-bottom: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    .agendi-inner-toptwo {
+      &::before {
+        height: 65%;
+      }
+    }
+  }
+  .agendi-banner-main {
+    padding: 30px 0 38px 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .left-content-box {
+      margin-top: 0;
+      margin-bottom: 25px;
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 25px;
+        strong {
+          font-size: 40px;
+          line-height: 50px;
+        }
+      }
+      p {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 15px;
+      }
+      p:nth-child(n + 2) {
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+    .right-content-box {
+      .top-text-box {
+        right: -14px;
+        height: 50px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        line-height: 23px;
+        width: 180px;
+        top: 180px;
+        .center-textbox-icon {
+          top: -26px;
+          width: 40px;
+          height: 40px;
+          right: 34px;
+          img {
+            width: 32px;
+            height: unset;
+          }
+        }
+      }
+      .bottom-text-box {
+        width: 162px;
+        height: 50px;
+        bottom: 65px;
+        left: -30px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        .center-textbox-icon {
+          width: 40px;
+          height: 40px;
+          right: 47px;
+          bottom: -32px;
+          img {
+            width: 30px;
+            height: 24px;
+          }
+        }
+      }
+      .right-text-box {
+        width: 204px;
+        height: 70px;
+
+        right: 0;
+        bottom: 123px;
+
+        padding: 15px 25px;
+
+        font-size: 14px;
+        strong {
+          font-size: 16px;
+        }
+        .botttom-textbox-icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .come-funizona-main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    .container-fluid {
+      max-width: 100%;
+    }
+    .funizona-grid-main {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      .funizona-single-box {
+        &:nth-child(even) {
+          margin-top: 0;
+        }
+        .sl-box {
+          margin-bottom: 10px;
+          font-size: 22px;
+        }
+        .content-box {
+          h3 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+  .agendi-piattofarma-main {
+    padding-top: 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .pe-0 {
+      padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .section-titlebox {
+      h3 {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 25px;
+      }
+    }
+    .agendi-piattofarma-box {
+      margin-bottom: 20px;
+      padding: 40px 25px 60px 25px;
+      .icon-box {
+        margin-bottom: 20px;
+      }
+      .content-box {
+        h3 {
+          font-size: 30px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        ul {
+          li {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .funziona-btn {
+      margin-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+  .audit-care-main {
+    padding-top: 76px;
+    .section-titlebox {
+      padding-left: 0px;
+    }
+    .audit-tab-box {
+      padding-left: 0px;
+      ul {
+        &.nav-tabs {
+          li {
+            button {
+              padding: 15px 30px;
+            }
+          }
+        }
+      }
+    }
+    .audit-tab-contents {
+      // margin-top: 50px;
+      .content-box {
+        h3 {
+          font-size: 35px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 17px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .agendi-bottom-four {
+    .perche-invesstire {
+      .right-contentbox {
+        margin-top: 0px;
+      }
+      .left-image-box {
+        margin-top: 50px;
+      }
+    }
+    .agendi-bottom-inner {
+      &::before {
+        height: 54%;
+      }
+    }
+  }
+  .agendi-contact-form {
+    padding-bottom: 50px;
+    .contact-bg {
+      .content-box {
+        h3 {
+          font-size: 30px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        p:nth-child(3) {
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  // agendi page start from here
 }
 @media (max-width: 1366px) {
 }
@@ -1724,6 +2196,242 @@
     background-position: center bottom;
     background-color: #f7f9fc;
   }
+
+  // agendi page start from here
+
+  .agendi-first-threesection {
+    margin-bottom: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    .agendi-inner-toptwo {
+      &::before {
+        height: 65%;
+      }
+    }
+  }
+  .agendi-banner-main {
+    padding: 30px 0 38px 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .left-content-box {
+      margin-top: 0;
+      margin-bottom: 25px;
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+        strong {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 15px;
+      }
+      p:nth-child(n + 2) {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+    .right-content-box {
+      .top-text-box {
+        right: -14px;
+        height: 50px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        line-height: 23px;
+        width: 180px;
+        top: 180px;
+        .center-textbox-icon {
+          top: -26px;
+          width: 40px;
+          height: 40px;
+          right: 34px;
+          img {
+            width: 32px;
+            height: unset;
+          }
+        }
+      }
+      .bottom-text-box {
+        width: 162px;
+        height: 50px;
+        bottom: 65px;
+        left: -30px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        .center-textbox-icon {
+          width: 40px;
+          height: 40px;
+          right: 47px;
+          bottom: -32px;
+          img {
+            width: 30px;
+            height: 24px;
+          }
+        }
+      }
+      .right-text-box {
+        width: 204px;
+        height: 70px;
+
+        right: 0;
+        bottom: 123px;
+
+        padding: 15px 25px;
+
+        font-size: 14px;
+        strong {
+          font-size: 16px;
+        }
+        .botttom-textbox-icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .come-funizona-main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    .container-fluid {
+      max-width: 100%;
+    }
+    .funizona-grid-main {
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      .funizona-single-box {
+        &:nth-child(even) {
+          margin-top: 0;
+        }
+        .sl-box {
+          margin-bottom: 10px;
+          font-size: 22px;
+        }
+        .content-box {
+          h3 {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+  .agendi-piattofarma-main {
+    padding-top: 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .pe-0 {
+      padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .section-titlebox {
+      h3 {
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 25px;
+      }
+    }
+    .agendi-piattofarma-box {
+      margin-bottom: 20px;
+      padding: 40px 25px 60px 25px;
+      .icon-box {
+        margin-bottom: 20px;
+      }
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .funziona-btn {
+      margin-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+  .audit-care-main {
+    padding-top: 50px;
+    .section-titlebox {
+      padding-left: 0px;
+    }
+    .audit-tab-box {
+      padding-left: 0px;
+      ul {
+        &.nav-tabs {
+          li {
+            button {
+              padding: 15px 30px;
+            }
+          }
+        }
+      }
+    }
+    .audit-tab-contents {
+      // margin-top: 50px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .agendi-bottom-four {
+    .perche-invesstire {
+      .right-contentbox {
+        margin-top: 0px;
+      }
+      .left-image-box {
+        margin-top: 50px;
+      }
+    }
+    .agendi-bottom-inner {
+      &::before {
+        height: 38%;
+      }
+    }
+  }
+  .agendi-contact-form {
+    padding-bottom: 50px;
+    .contact-bg {
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        p:nth-child(3) {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  // agendi page start from here
 }
 @media (max-width: 1024px) {
 }
@@ -2135,6 +2843,248 @@
     background-position: center center;
     background-color: #f7f9fc;
   }
+  // agendi page start from here
+
+  .agendi-first-threesection {
+    margin-bottom: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    .agendi-inner-toptwo {
+      &::before {
+        height: 25%;
+      }
+    }
+  }
+  .agendi-banner-main {
+    padding: 30px 0 38px 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .left-content-box {
+      margin-top: 0;
+      margin-bottom: 25px;
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+        strong {
+          font-size: 30px;
+          line-height: 40px;
+        }
+        br {
+          display: none;
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        br {
+          display: none;
+        }
+      }
+      p:nth-child(n + 2) {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+    .right-content-box {
+      .top-text-box {
+        right: -14px;
+        height: 50px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        line-height: 23px;
+        width: 180px;
+        top: 180px;
+        .center-textbox-icon {
+          top: -26px;
+          width: 40px;
+          height: 40px;
+          right: 34px;
+          img {
+            width: 32px;
+            height: unset;
+          }
+        }
+      }
+      .bottom-text-box {
+        width: 162px;
+        height: 50px;
+        bottom: 65px;
+        left: -30px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        .center-textbox-icon {
+          width: 40px;
+          height: 40px;
+          right: 47px;
+          bottom: -32px;
+          img {
+            width: 30px;
+            height: 24px;
+          }
+        }
+      }
+      .right-text-box {
+        width: 204px;
+        height: 70px;
+
+        right: 0;
+        bottom: 123px;
+
+        padding: 15px 25px;
+
+        font-size: 14px;
+        strong {
+          font-size: 16px;
+        }
+        .botttom-textbox-icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .come-funizona-main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    .container-fluid {
+      max-width: 100%;
+    }
+    .funizona-grid-main {
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      .funizona-single-box {
+        &:nth-child(even) {
+          margin-top: 0;
+        }
+        .sl-box {
+          margin-bottom: 10px;
+          font-size: 22px;
+        }
+        .content-box {
+          h3 {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+  .agendi-piattofarma-main {
+    padding-top: 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .pe-0 {
+      padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .section-titlebox {
+      h3 {
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 25px;
+      }
+    }
+    .agendi-piattofarma-box {
+      margin-bottom: 20px;
+      padding: 40px 25px 60px 25px;
+      .icon-box {
+        margin-bottom: 20px;
+      }
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .funziona-btn {
+      margin-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+  .audit-care-main {
+    padding-top: 50px;
+    .section-titlebox {
+      padding-left: 0px;
+    }
+    .audit-tab-box {
+      padding-left: 0px;
+      ul {
+        &.nav-tabs {
+          li {
+            button {
+              padding: 15px 30px;
+            }
+          }
+        }
+      }
+    }
+    .audit-tab-contents {
+      // margin-top: 50px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .agendi-bottom-four {
+    .perche-invesstire {
+      .right-contentbox {
+        margin-top: 0px;
+      }
+      .left-image-box {
+        margin-top: 50px;
+      }
+    }
+    .agendi-bottom-inner {
+      &::before {
+        height: 38%;
+      }
+    }
+  }
+  .agendi-contact-form {
+    padding-bottom: 50px;
+    .contact-bg {
+      padding: 40px 20px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        p:nth-child(3) {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  // agendi page start from here
 }
 
 @media (max-width: 991px) {
@@ -2575,6 +3525,247 @@
     background-position: left;
     background-color: #f7f9fc;
   }
+  // agendi page start from here
+
+  .agendi-first-threesection {
+    margin-bottom: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    .agendi-inner-toptwo {
+      &::before {
+        height: 25%;
+      }
+    }
+  }
+  .agendi-banner-main {
+    padding: 30px 0 38px 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .left-content-box {
+      margin-top: 0;
+      margin-bottom: 25px;
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+        strong {
+          font-size: 30px;
+          line-height: 40px;
+        }
+        br {
+          display: none;
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        br {
+          display: none;
+        }
+      }
+      p:nth-child(n + 2) {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+    .right-content-box {
+      .top-text-box {
+        right: -14px;
+        height: 50px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        line-height: 23px;
+        width: 180px;
+        top: 180px;
+        .center-textbox-icon {
+          top: -26px;
+          width: 40px;
+          height: 40px;
+          right: 34px;
+          img {
+            width: 32px;
+            height: unset;
+          }
+        }
+      }
+      .bottom-text-box {
+        width: 162px;
+        height: 50px;
+        bottom: 65px;
+        left: -30px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        .center-textbox-icon {
+          width: 40px;
+          height: 40px;
+          right: 47px;
+          bottom: -32px;
+          img {
+            width: 30px;
+            height: 24px;
+          }
+        }
+      }
+      .right-text-box {
+        width: 204px;
+        height: 70px;
+
+        right: 0;
+        bottom: 123px;
+
+        padding: 15px 25px;
+
+        font-size: 14px;
+        strong {
+          font-size: 16px;
+        }
+        .botttom-textbox-icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .come-funizona-main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    .container-fluid {
+      max-width: 100%;
+    }
+    .funizona-grid-main {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      .funizona-single-box {
+        &:nth-child(even) {
+          margin-top: 0;
+        }
+        .sl-box {
+          margin-bottom: 10px;
+          font-size: 22px;
+        }
+        .content-box {
+          h3 {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+  .agendi-piattofarma-main {
+    padding-top: 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .pe-0 {
+      padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .section-titlebox {
+      h3 {
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 25px;
+      }
+    }
+    .agendi-piattofarma-box {
+      margin-bottom: 20px;
+      .icon-box {
+        margin-bottom: 20px;
+      }
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .funziona-btn {
+      margin-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+  .audit-care-main {
+    padding-top: 50px;
+    .section-titlebox {
+      padding-left: 0px;
+    }
+    .audit-tab-box {
+      padding-left: 0px;
+      ul {
+        &.nav-tabs {
+          li {
+            button {
+              padding: 15px 30px;
+            }
+          }
+        }
+      }
+    }
+    .audit-tab-contents {
+      margin-top: 50px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .agendi-bottom-four {
+    .perche-invesstire {
+      .right-contentbox {
+        margin-top: 0px;
+      }
+      .left-image-box {
+        margin-top: 50px;
+      }
+    }
+    .agendi-bottom-inner {
+      &::before {
+        height: 38%;
+      }
+    }
+  }
+  .agendi-contact-form {
+    padding-bottom: 50px;
+    .contact-bg {
+      padding: 40px 20px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        p:nth-child(3) {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  // agendi page start from here
 }
 @media (max-width: 767px) {
 }
@@ -2994,6 +4185,247 @@
   .first-three-section {
     background-position: left center;
   }
+  // agendi page start from here
+
+  .agendi-first-threesection {
+    margin-bottom: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    .agendi-inner-toptwo {
+      &::before {
+        height: 25%;
+      }
+    }
+  }
+  .agendi-banner-main {
+    padding: 30px 0 38px 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .left-content-box {
+      margin-top: 0;
+      margin-bottom: 25px;
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+        strong {
+          font-size: 30px;
+          line-height: 40px;
+        }
+        br {
+          display: none;
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        br {
+          display: none;
+        }
+      }
+      p:nth-child(n + 2) {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+    .right-content-box {
+      .top-text-box {
+        right: -14px;
+        height: 50px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        line-height: 23px;
+        width: 180px;
+        top: 180px;
+        .center-textbox-icon {
+          top: -26px;
+          width: 40px;
+          height: 40px;
+          right: 34px;
+          img {
+            width: 32px;
+            height: unset;
+          }
+        }
+      }
+      .bottom-text-box {
+        width: 162px;
+        height: 50px;
+        bottom: 65px;
+        left: -30px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        .center-textbox-icon {
+          width: 40px;
+          height: 40px;
+          right: 47px;
+          bottom: -32px;
+          img {
+            width: 30px;
+            height: 24px;
+          }
+        }
+      }
+      .right-text-box {
+        width: 204px;
+        height: 70px;
+
+        right: 0;
+        bottom: 123px;
+
+        padding: 15px 25px;
+
+        font-size: 14px;
+        strong {
+          font-size: 16px;
+        }
+        .botttom-textbox-icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .come-funizona-main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    .container-fluid {
+      max-width: 100%;
+    }
+    .funizona-grid-main {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      .funizona-single-box {
+        &:nth-child(even) {
+          margin-top: 0;
+        }
+        .sl-box {
+          margin-bottom: 10px;
+          font-size: 22px;
+        }
+        .content-box {
+          h3 {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+  .agendi-piattofarma-main {
+    padding-top: 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .pe-0 {
+      padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .section-titlebox {
+      h3 {
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 25px;
+      }
+    }
+    .agendi-piattofarma-box {
+      margin-bottom: 20px;
+      .icon-box {
+        margin-bottom: 20px;
+      }
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .funziona-btn {
+      margin-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+  .audit-care-main {
+    padding-top: 50px;
+    .section-titlebox {
+      padding-left: 0px;
+    }
+    .audit-tab-box {
+      padding-left: 0px;
+      ul {
+        &.nav-tabs {
+          li {
+            button {
+              padding: 15px 30px;
+            }
+          }
+        }
+      }
+    }
+    .audit-tab-contents {
+      margin-top: 50px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .agendi-bottom-four {
+    .perche-invesstire {
+      .right-contentbox {
+        margin-top: 0px;
+      }
+      .left-image-box {
+        margin-top: 50px;
+      }
+    }
+    .agendi-bottom-inner {
+      &::before {
+        height: 38%;
+      }
+    }
+  }
+  .agendi-contact-form {
+    padding-bottom: 50px;
+    .contact-bg {
+      padding: 40px 20px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        p:nth-child(3) {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  // agendi page start from here
 }
 
 @media (max-width: 575px) {
@@ -3406,6 +4838,247 @@
     // background-color: red;
     background-position-y: bottom;
   }
+  // agendi page start from here
+
+  .agendi-first-threesection {
+    margin-bottom: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    .agendi-inner-toptwo {
+      &::before {
+        height: 25%;
+      }
+    }
+  }
+  .agendi-banner-main {
+    padding: 30px 0 38px 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .left-content-box {
+      margin-top: 0;
+      margin-bottom: 25px;
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+        strong {
+          font-size: 30px;
+          line-height: 40px;
+        }
+        br {
+          display: none;
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        br {
+          display: none;
+        }
+      }
+      p:nth-child(n + 2) {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+    .right-content-box {
+      .top-text-box {
+        right: -14px;
+        height: 50px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        line-height: 23px;
+        width: 180px;
+        top: 180px;
+        .center-textbox-icon {
+          top: -26px;
+          width: 40px;
+          height: 40px;
+          right: 34px;
+          img {
+            width: 32px;
+            height: unset;
+          }
+        }
+      }
+      .bottom-text-box {
+        width: 162px;
+        height: 50px;
+        bottom: 65px;
+        left: -30px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        .center-textbox-icon {
+          width: 40px;
+          height: 40px;
+          right: 47px;
+          bottom: -32px;
+          img {
+            width: 30px;
+            height: 24px;
+          }
+        }
+      }
+      .right-text-box {
+        width: 204px;
+        height: 70px;
+
+        right: 0;
+        bottom: 123px;
+
+        padding: 15px 25px;
+
+        font-size: 14px;
+        strong {
+          font-size: 16px;
+        }
+        .botttom-textbox-icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .come-funizona-main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    .container-fluid {
+      max-width: 100%;
+    }
+    .funizona-grid-main {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      .funizona-single-box {
+        &:nth-child(even) {
+          margin-top: 0;
+        }
+        .sl-box {
+          margin-bottom: 10px;
+          font-size: 22px;
+        }
+        .content-box {
+          h3 {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+  .agendi-piattofarma-main {
+    padding-top: 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .pe-0 {
+      padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .section-titlebox {
+      h3 {
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 25px;
+      }
+    }
+    .agendi-piattofarma-box {
+      margin-bottom: 20px;
+      .icon-box {
+        margin-bottom: 20px;
+      }
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .funziona-btn {
+      margin-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+  .audit-care-main {
+    padding-top: 50px;
+    .section-titlebox {
+      padding-left: 0px;
+    }
+    .audit-tab-box {
+      padding-left: 0px;
+      ul {
+        &.nav-tabs {
+          li {
+            button {
+              padding: 15px 30px;
+            }
+          }
+        }
+      }
+    }
+    .audit-tab-contents {
+      margin-top: 50px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .agendi-bottom-four {
+    .perche-invesstire {
+      .right-contentbox {
+        margin-top: 0px;
+      }
+      .left-image-box {
+        margin-top: 50px;
+      }
+    }
+    .agendi-bottom-inner {
+      &::before {
+        height: 38%;
+      }
+    }
+  }
+  .agendi-contact-form {
+    padding-bottom: 50px;
+    .contact-bg {
+      padding: 40px 20px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        p:nth-child(3) {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  // agendi page start from here
 }
 @media (max-width: 414px) {
 }
@@ -3817,6 +5490,247 @@
     // background-color: red;
     background-position-y: bottom;
   }
+  // agendi page start from here
+
+  .agendi-first-threesection {
+    margin-bottom: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    .agendi-inner-toptwo {
+      &::before {
+        height: 25%;
+      }
+    }
+  }
+  .agendi-banner-main {
+    padding: 30px 0 38px 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .left-content-box {
+      margin-top: 0;
+      margin-bottom: 25px;
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+        strong {
+          font-size: 30px;
+          line-height: 40px;
+        }
+        br {
+          display: none;
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        br {
+          display: none;
+        }
+      }
+      p:nth-child(n + 2) {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+    .right-content-box {
+      .top-text-box {
+        right: -14px;
+        height: 50px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        line-height: 23px;
+        width: 180px;
+        top: 180px;
+        .center-textbox-icon {
+          top: -26px;
+          width: 40px;
+          height: 40px;
+          right: 34px;
+          img {
+            width: 32px;
+            height: unset;
+          }
+        }
+      }
+      .bottom-text-box {
+        width: 162px;
+        height: 50px;
+        bottom: 65px;
+        left: -30px;
+        padding: 15px 25px 15px 25px;
+        font-size: 14px;
+        .center-textbox-icon {
+          width: 40px;
+          height: 40px;
+          right: 47px;
+          bottom: -32px;
+          img {
+            width: 30px;
+            height: 24px;
+          }
+        }
+      }
+      .right-text-box {
+        width: 204px;
+        height: 70px;
+
+        right: 0;
+        bottom: 123px;
+
+        padding: 15px 25px;
+
+        font-size: 14px;
+        strong {
+          font-size: 16px;
+        }
+        .botttom-textbox-icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .come-funizona-main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    .container-fluid {
+      max-width: 100%;
+    }
+    .funizona-grid-main {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      .funizona-single-box {
+        &:nth-child(even) {
+          margin-top: 0;
+        }
+        .sl-box {
+          margin-bottom: 10px;
+          font-size: 22px;
+        }
+        .content-box {
+          h3 {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+  .agendi-piattofarma-main {
+    padding-top: 0;
+    .ps-0 {
+      padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .pe-0 {
+      padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+    .section-titlebox {
+      h3 {
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 25px;
+      }
+    }
+    .agendi-piattofarma-box {
+      margin-bottom: 20px;
+      .icon-box {
+        margin-bottom: 20px;
+      }
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .funziona-btn {
+      margin-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+  .audit-care-main {
+    padding-top: 50px;
+    .section-titlebox {
+      padding-left: 0px;
+    }
+    .audit-tab-box {
+      padding-left: 0px;
+      ul {
+        &.nav-tabs {
+          li {
+            button {
+              padding: 15px 30px;
+            }
+          }
+        }
+      }
+    }
+    .audit-tab-contents {
+      margin-top: 50px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .agendi-bottom-four {
+    .perche-invesstire {
+      .right-contentbox {
+        margin-top: 0px;
+      }
+      .left-image-box {
+        margin-top: 50px;
+      }
+    }
+    .agendi-bottom-inner {
+      &::before {
+        height: 38%;
+      }
+    }
+  }
+  .agendi-contact-form {
+    padding-bottom: 50px;
+    .contact-bg {
+      padding: 40px 20px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        p:nth-child(3) {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  // agendi page start from here
 }
 @media (max-width: 375px) {
 }
@@ -4432,7 +6346,39 @@
       .right-contentbox {
         margin-top: 0px;
       }
+      .left-image-box {
+        margin-top: 50px;
+      }
+    }
+    .agendi-bottom-inner {
+      &::before {
+        height: 38%;
+      }
     }
   }
+  .agendi-contact-form {
+    padding-bottom: 50px;
+    .contact-bg {
+      padding: 40px 20px;
+      .content-box {
+        h3 {
+          font-size: 25px;
+          line-height: normal;
+          margin-bottom: 25px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        p:nth-child(3) {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
   // agendi page start from here
 }
