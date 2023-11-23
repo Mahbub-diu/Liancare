@@ -2560,7 +2560,8 @@
     border-bottom-right-radius: 80px;
   }
   .agendi-first-threesection .agendi-inner-toptwo::before {
-    height: 25%;
+    height: 58%;
+    top: 0;
   }
   .agendi-banner-main {
     padding: 30px 0 38px 0;
