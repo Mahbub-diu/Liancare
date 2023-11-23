@@ -2077,4 +2077,190 @@ footer .footer-social-link ul li a img {
 .agendi-contact-form .contact-bg .form-control.is-invalid,
 .agendi-contact-form .contact-bg .was-validated .form-control:invalid {
   border-color: #bb2749 !important;
+}
+
+.caregiver-first-threesection .agendi-inner-toptwo::before {
+  display: none;
+}
+.caregiver-first-threesection .caregiver-banner-main .right-content-box .top-text-box {
+  width: 165px;
+  height: 73px;
+  top: 205px;
+  left: 0;
+}
+.caregiver-first-threesection .caregiver-banner-main .right-content-box .top-text-box .center-textbox-icon {
+  background: #bb2749;
+  right: 25px;
+}
+.caregiver-first-threesection .caregiver-banner-main .right-content-box .right-text-box {
+  width: 250px;
+  height: 96px;
+  right: -25px;
+  bottom: 30%;
+  padding: 27px 27px 24px 36px;
+  color: #bb2749;
+  transform: translateY(-50%);
+}
+.caregiver-first-threesection .caregiver-banner-main .right-content-box .right-text-box .botttom-textbox-icon {
+  background: #77ac2c;
+}
+.caregiver-first-threesection .caregiver-banner-main .right-content-box .bottom-text-box {
+  width: 135px;
+  height: 73px;
+  bottom: 226px;
+  left: -30px;
+  padding: 29px 29px 28px 20px;
+}
+.caregiver-first-threesection .caregiver-banner-main .right-content-box .bottom-text-box .center-textbox-icon {
+  background: #bb2749;
+  right: 15px;
+  bottom: -32px;
+}
+.caregiver-first-threesection .audit-care-main.care-giver-main .section-titlebox p {
+  color: #bb2749;
+}
+.caregiver-first-threesection .audit-care-main.care-giver-main .audit-tab-box ul.nav-tabs li button:hover {
+  background: #bb2749;
+}
+.caregiver-first-threesection .audit-care-main.care-giver-main .audit-tab-box ul.nav-tabs li button.active {
+  background: #bb2749;
+}
+
+.care-giver-purche .left-image-box {
+  padding-left: 10px;
+  width: 80%;
+}
+.care-giver-purche .left-image-box img {
+  min-height: unset;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 60px;
+  width: 100%;
+}
+.care-giver-purche .left-image-box .shape-image {
+  top: -13px;
+  left: 0;
+  z-index: 1;
+  height: calc(100% - 37px);
+  width: calc(100% - 16px);
+}
+.care-giver-purche .left-image-box .shape-image img {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.care-giver-purche .left-image-box .four-icon-box {
+  position: absolute;
+  right: -115px;
+  top: 50%;
+  width: 165px;
+  min-height: 300px;
+  z-index: 9;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.care-giver-purche .left-image-box .four-icon-box .single-icon-box {
+  width: 165px;
+  height: 73px;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 30px 31px 27px 39px;
+}
+.care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background: #dff1c7;
+  background: #bb2749;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  position: absolute;
+  left: -22px;
+}
+.care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box img {
+  width: 32px;
+  height: 32px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.care-giver-purche .left-image-box .four-icon-box .single-icon-box p {
+  margin: 0;
+  color: #121212;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.care-giver-purche .right-contentbox .section-titlebox p {
+  color: #bb2749;
+}
+
+.caregiver-piattofarma .section-titlebox p {
+  color: #bb2749;
+}
+.caregiver-piattofarma .section-titlebox h3 {
+  margin-bottom: 60px;
+}
+.caregiver-piattofarma .single-box {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.caregiver-piattofarma .single-box .icon-box {
+  padding: 50px 44px;
+  border-radius: 6px 40px;
+  background: #fff;
+  box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
+  width: 144px;
+  margin: 0px auto;
+  margin-bottom: 28px;
+}
+.caregiver-piattofarma .single-box .icon-box .icon-bg {
+  padding: 8px;
+  background: #ffd2dd;
+  border-radius: 8px;
+}
+.caregiver-piattofarma .single-box .icon-box .icon-bg img {
+  width: 40px;
+  height: 40px;
+}
+.caregiver-piattofarma .single-box h4 {
+  color: #121212;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.caregiver-piattofarma .single-box p {
+  color: #121212;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }/*# sourceMappingURL=style.css.map */

@@ -2131,3 +2131,223 @@ footer {
   }
 }
 // agendi page end here
+
+// caregiver page start from here
+
+.caregiver-first-threesection {
+  .agendi-inner-toptwo {
+    &::before {
+      // position: absolute;
+      // top: 24px;
+      // left: 0;
+      // width: 100%;
+      // height: 90%;
+      // background: url(../images/agendi/circle-1920x1390.png);
+      // background-size: cover;
+      // background-repeat: no-repeat;
+      // background-position: center center;
+      // content: "";
+      display: none;
+    }
+  }
+  .caregiver-banner-main {
+    .right-content-box {
+      .top-text-box {
+        width: 165px;
+        height: 73px;
+        top: 205px;
+        left: 0;
+        .center-textbox-icon {
+          background: $btn-magenta;
+
+          right: 25px;
+        }
+      }
+      .right-text-box {
+        width: 250px;
+        height: 96px;
+        right: -25px;
+        bottom: 30%;
+        padding: 27px 27px 24px 36px;
+        color: $btn-magenta;
+        transform: translateY(-50%);
+        .botttom-textbox-icon {
+          background: $green-blod;
+        }
+      }
+      .bottom-text-box {
+        width: 135px;
+        height: 73px;
+        bottom: 226px;
+        left: -30px;
+        padding: 29px 29px 28px 20px;
+        .center-textbox-icon {
+          background: $btn-magenta;
+
+          right: 15px;
+          bottom: -32px;
+        }
+      }
+    }
+  }
+  .audit-care-main.care-giver-main {
+    .section-titlebox {
+      p {
+        color: $btn-magenta;
+      }
+    }
+    .audit-tab-box {
+      ul {
+        &.nav-tabs {
+          li {
+            button {
+              &:hover {
+                background: $btn-magenta;
+              }
+              &.active {
+                background: $btn-magenta;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.care-giver-purche {
+  .left-image-box {
+    padding-left: 10px;
+    width: 80%;
+    img {
+      min-height: unset;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 60px;
+      width: 100%;
+    }
+    .shape-image {
+      top: -13px;
+      left: 0;
+      z-index: 1;
+      height: calc(100% - 37px);
+      width: calc(100% - 16px);
+      img {
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+      }
+    }
+    .four-icon-box {
+      position: absolute;
+      right: -115px;
+      top: 50%;
+      width: 165px;
+      min-height: 300px;
+      z-index: 9;
+      transform: translateY(-50%);
+
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      .single-icon-box {
+        width: 165px;
+        height: 73px;
+        border-radius: 8px;
+        background: #fff;
+        margin-bottom: 10px;
+        position: relative;
+        padding: 30px 31px 27px 39px;
+        .icon-box {
+          @include iconbox-size-48;
+          background: $btn-magenta;
+          @include translate-Y-center;
+          position: absolute;
+          left: -22px;
+          img {
+            width: 32px;
+            height: 32px;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+          }
+        }
+        p {
+          margin: 0;
+          color: $text-color;
+          font-family: $nunito;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 16px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  .right-contentbox {
+    .section-titlebox {
+      p {
+        color: $btn-magenta;
+      }
+    }
+  }
+}
+.caregiver-piattofarma {
+  .section-titlebox {
+    p {
+      color: $btn-magenta;
+    }
+    h3 {
+      margin-bottom: 60px;
+    }
+  }
+  .single-box {
+    margin-bottom: 70px;
+    text-align: center;
+    .icon-box {
+      padding: 50px 44px;
+      border-radius: 6px 40px;
+      background: #fff;
+      box-shadow: 0px 20px 40px -2px rgba(15, 49, 73, 0.1);
+      width: 144px;
+      margin: 0px auto;
+      margin-bottom: 28px;
+      .icon-bg {
+        padding: 8px;
+        background: #ffd2dd;
+        border-radius: 8px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+    h4 {
+      color: $heading-color;
+      text-align: center;
+      font-family: $roboto;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 32px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: $heading-color;
+      text-align: center;
+      font-family: $nunito;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+    }
+  }
+}
+
+// caregiver page end here
