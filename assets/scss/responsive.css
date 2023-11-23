@@ -18,6 +18,42 @@
     top: 357px;
     height: 1547px;
   }
+  .agendi-first-threesection .agendi-inner-toptwo::before {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: url(../images/agendi/2560x1415.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+  }
+  .agendi-bottom-four::before {
+    position: absolute;
+    top: -71px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 71px);
+    content: "";
+    background: url(../images/agendi/2560x2290.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .agendi-bottom-four .agendi-bottom-inner::before {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 78%;
+    background: url(../images/agendi/2560x1485.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+  }
 }
 @media (min-width: 1441px) and (max-width: 1600px) {
   .container {
@@ -351,6 +387,196 @@
     background-size: cover;
     background-position: center bottom;
     background-color: #f7f9fc;
+  }
+  .agendi-first-threesection {
+    margin-bottom: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+  }
+  .agendi-first-threesection .agendi-inner-toptwo::before {
+    height: 90%;
+  }
+  .agendi-banner-main {
+    padding: 80px 0 38px 0;
+  }
+  .agendi-banner-main .ps-0 {
+    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+  }
+  .agendi-banner-main .left-content-box {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .agendi-banner-main .left-content-box h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 25px;
+  }
+  .agendi-banner-main .left-content-box h1 strong {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .agendi-banner-main .left-content-box p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+  .agendi-banner-main .left-content-box p:nth-child(n+2) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .agendi-banner-main .right-content-box .top-text-box {
+    right: -14px;
+    height: 50px;
+    padding: 15px 25px 15px 25px;
+    font-size: 14px;
+    line-height: 23px;
+    width: 180px;
+    top: 180px;
+  }
+  .agendi-banner-main .right-content-box .top-text-box .center-textbox-icon {
+    top: -26px;
+    width: 40px;
+    height: 40px;
+    right: 34px;
+  }
+  .agendi-banner-main .right-content-box .top-text-box .center-textbox-icon img {
+    width: 32px;
+    height: unset;
+  }
+  .agendi-banner-main .right-content-box .bottom-text-box {
+    width: 162px;
+    height: 50px;
+    bottom: 65px;
+    left: -30px;
+    padding: 15px 25px 15px 25px;
+    font-size: 14px;
+  }
+  .agendi-banner-main .right-content-box .bottom-text-box .center-textbox-icon {
+    width: 40px;
+    height: 40px;
+    right: 47px;
+    bottom: -32px;
+  }
+  .agendi-banner-main .right-content-box .bottom-text-box .center-textbox-icon img {
+    width: 30px;
+    height: 24px;
+  }
+  .agendi-banner-main .right-content-box .right-text-box {
+    width: 204px;
+    height: 70px;
+    right: 0;
+    bottom: 123px;
+    padding: 15px 25px;
+    font-size: 14px;
+  }
+  .agendi-banner-main .right-content-box .right-text-box strong {
+    font-size: 16px;
+  }
+  .agendi-banner-main .right-content-box .right-text-box .botttom-textbox-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .come-funizona-main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 190px;
+    padding-top: 50px;
+  }
+  .come-funizona-main .container-fluid {
+    max-width: 100%;
+  }
+  .come-funizona-main .funizona-grid-main {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .come-funizona-main .funizona-grid-main .funizona-single-box .sl-box {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .come-funizona-main .funizona-grid-main .funizona-single-box .content-box h3 {
+    font-size: 24px;
+  }
+  .agendi-piattofarma-main {
+    padding-top: 0;
+  }
+  .agendi-piattofarma-main .ps-0 {
+    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+  }
+  .agendi-piattofarma-main .pe-0 {
+    padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+  }
+  .agendi-piattofarma-main .section-titlebox h3 {
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+  .agendi-piattofarma-main .agendi-piattofarma-box {
+    margin-bottom: 20px;
+    padding: 40px 25px 60px 25px;
+  }
+  .agendi-piattofarma-main .agendi-piattofarma-box .icon-box {
+    margin-bottom: 20px;
+  }
+  .agendi-piattofarma-main .agendi-piattofarma-box .content-box h3 {
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+  .agendi-piattofarma-main .agendi-piattofarma-box .content-box ul li {
+    font-size: 17px;
+  }
+  .agendi-piattofarma-main .funziona-btn {
+    margin-top: 25px;
+    padding-bottom: 25px;
+  }
+  .audit-care-main {
+    padding-top: 76px;
+  }
+  .audit-care-main .section-titlebox {
+    padding-left: 0px;
+  }
+  .audit-care-main .audit-tab-box {
+    padding-left: 0px;
+  }
+  .audit-care-main .audit-tab-box ul.nav-tabs li button {
+    padding: 15px 30px;
+  }
+  .audit-care-main .audit-tab-contents .content-box h3 {
+    font-size: 35px;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+  .audit-care-main .audit-tab-contents .content-box p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .agendi-bottom-four .perche-invesstire .right-contentbox {
+    margin-top: 0px;
+  }
+  .agendi-bottom-four .perche-invesstire .left-image-box {
+    margin-top: 50px;
+  }
+  .agendi-bottom-four .agendi-bottom-inner::before {
+    height: 76%;
+    top: 30px;
+  }
+  .agendi-contact-form {
+    padding-bottom: 50px;
+  }
+  .agendi-contact-form .contact-bg .content-box h3 {
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+  .agendi-contact-form .contact-bg .content-box p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .agendi-contact-form .contact-bg .content-box p:nth-child(3) {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 1241px) and (max-width: 1365px) {
@@ -882,7 +1108,8 @@
     margin-top: 50px;
   }
   .agendi-bottom-four .agendi-bottom-inner::before {
-    height: 54%;
+    height: 57%;
+    top: 30px;
   }
   .agendi-contact-form {
     padding-bottom: 50px;
