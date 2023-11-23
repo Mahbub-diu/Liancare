@@ -2192,7 +2192,8 @@
     margin-top: 50px;
   }
   .agendi-bottom-four .agendi-bottom-inner::before {
-    height: 38%;
+    height: 65%;
+    top: 0;
   }
   .agendi-contact-form {
     padding-bottom: 50px;
@@ -2733,7 +2734,8 @@
     margin-top: 50px;
   }
   .agendi-bottom-four .agendi-bottom-inner::before {
-    height: 38%;
+    height: 75%;
+    top: 0;
   }
   .agendi-contact-form {
     padding-bottom: 50px;
