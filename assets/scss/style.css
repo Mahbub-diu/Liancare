@@ -2286,4 +2286,34 @@ footer .footer-social-link ul li a img {
 }
 .psicologi-first-threesection .agendi-banner-main .left-content-box {
   margin-top: 0px;
+}
+
+.chiciamo-first-threesection {
+  background: url(../images/chiciamo/1920x1938.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 100px;
+}
+.chiciamo-first-threesection .perche-invesstire {
+  padding-top: 0;
+}
+
+.chiciamo-bottom-two {
+  position: relative;
+}
+.chiciamo-bottom-two footer {
+  border-top: 1px solid #d9d9dd;
+}
+.chiciamo-bottom-two::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 57%;
+  content: "";
+  background: url(../images/chiciamo/footer-shape.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
