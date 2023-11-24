@@ -121,6 +121,46 @@
       background-size: cover;
     }
   }
+  .caregiver-first-threesection {
+    background: url(../images/caregiver/25602x2298.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    .perche-invesstire.care-giver-purche {
+      background: unset;
+    }
+  }
+  .psicologi-first-threesection {
+    background: url(../images/psicologi/2560x1895.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+  }
+
+  .psicologi-first-threesection {
+    .agendi-inner-toptwo {
+      &::before {
+        position: absolute;
+        top: 24px;
+        left: 0;
+        width: 100%;
+        height: 90%;
+        background: url(../images/psicologi/2560x1570.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        content: '';
+      }
+    }
+  }
+  .psicologi-first-threesection {
+    .perche-invesstire {
+      &.care-giver-purche {
+        background: unset;
+      }
+    }
+  }
 }
 @media (min-width: 1441px) and (max-width: 1600px) {
   .container {
@@ -2228,6 +2268,13 @@
   }
 
   // caregive page end here
+  .psicologi-first-threesection {
+    .perche-invesstire {
+      &.care-giver-purche {
+        padding-top: 50px;
+      }
+    }
+  }
 }
 @media (max-width: 1366px) {
 }
@@ -2920,6 +2967,13 @@
   }
 
   // caregive page end here
+  .psicologi-first-threesection {
+    .perche-invesstire {
+      &.care-giver-purche {
+        padding-top: 50px;
+      }
+    }
+  }
 }
 @media (max-width: 1024px) {
 }
@@ -3675,7 +3729,28 @@
 
   // caregiver page end here
 
-  // care giver page end here
+  // psicologi page start from here
+
+  .psicologi-first-threesection {
+    .perche-invesstire {
+      &.care-giver-purche {
+        padding-top: 20px;
+        padding-bottom: 90px;
+      }
+    }
+  }
+
+  // psicologi page ends here
+  .agendi-first-threesection {
+    &.psicologi-first-threesection {
+      .agendi-inner-toptwo {
+        &::before {
+          height: 66%;
+          top: 0;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 991px) {
@@ -4451,6 +4526,18 @@
   }
 
   // caregiver page end here
+
+  // psicologi page start from here
+
+  .psicologi-first-threesection {
+    .perche-invesstire {
+      &.care-giver-purche {
+        padding-top: 20px;
+      }
+    }
+  }
+
+  // psicologi page ends here
 }
 @media (max-width: 767px) {
 }
@@ -5169,6 +5256,18 @@
   }
 
   // caregiver page end here
+
+  // psicologi page start from here
+
+  .psicologi-first-threesection {
+    .perche-invesstire {
+      &.care-giver-purche {
+        padding-top: 20px;
+      }
+    }
+  }
+
+  // psicologi page ends here
 }
 
 @media (max-width: 575px) {
@@ -5908,6 +6007,17 @@
   // caregiver page end here
 }
 @media (max-width: 414px) {
+  // psicologi page start from here
+
+  .psicologi-first-threesection {
+    .perche-invesstire {
+      &.care-giver-purche {
+        padding-top: 20px;
+      }
+    }
+  }
+
+  // psicologi page ends here
 }
 @media (min-width: 361px) and (max-width: 375px) {
   // header part start from here
@@ -7352,4 +7462,16 @@
   }
 
   // caregiver page end here
+
+  // psicologi page start from here
+
+  .psicologi-first-threesection {
+    .perche-invesstire {
+      &.care-giver-purche {
+        padding-top: 20px;
+      }
+    }
+  }
+
+  // psicologi page ends here
 }

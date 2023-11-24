@@ -93,6 +93,37 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .caregiver-first-threesection {
+    background: url(../images/caregiver/25602x2298.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .caregiver-first-threesection .perche-invesstire.care-giver-purche {
+    background: unset;
+  }
+  .psicologi-first-threesection {
+    background: url(../images/psicologi/2560x1895.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+  }
+  .psicologi-first-threesection .agendi-inner-toptwo::before {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: url(../images/psicologi/2560x1570.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+  }
+  .psicologi-first-threesection .perche-invesstire.care-giver-purche {
+    background: unset;
+  }
 }
 @media (min-width: 1441px) and (max-width: 1600px) {
   .container {
@@ -1760,6 +1791,9 @@
     font-size: 30px;
     line-height: 38px;
   }
+  .psicologi-first-threesection .perche-invesstire.care-giver-purche {
+    padding-top: 50px;
+  }
 }
 @media (min-width: 1241px) {
   .mobile-menu-main {
@@ -2330,6 +2364,9 @@
   .Compila-main .compaila-bg .content-box h3 {
     font-size: 30px;
     line-height: 38px;
+  }
+  .psicologi-first-threesection .perche-invesstire.care-giver-purche {
+    padding-top: 50px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2961,6 +2998,14 @@
   .Compila-main .compaila-bg .content-box p {
     font-size: 16px;
     line-height: 25px;
+  }
+  .psicologi-first-threesection .perche-invesstire.care-giver-purche {
+    padding-top: 20px;
+    padding-bottom: 90px;
+  }
+  .agendi-first-threesection.psicologi-first-threesection .agendi-inner-toptwo::before {
+    height: 66%;
+    top: 0;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -3609,6 +3654,9 @@
     font-size: 16px;
     line-height: 25px;
   }
+  .psicologi-first-threesection .perche-invesstire.care-giver-purche {
+    padding-top: 20px;
+  }
 }
 @media (min-width: 415px) and (max-width: 575px) {
   header .mobile-menu-main .mobilemenu-header {
@@ -4211,6 +4259,9 @@
   .Compila-main .compaila-bg .content-box p {
     font-size: 16px;
     line-height: 25px;
+  }
+  .psicologi-first-threesection .perche-invesstire.care-giver-purche {
+    padding-top: 20px;
   }
 }
 @media (min-width: 376px) and (max-width: 414px) {
@@ -4828,6 +4879,11 @@
   .Compila-main .compaila-bg .content-box p {
     font-size: 16px;
     line-height: 25px;
+  }
+}
+@media (max-width: 414px) {
+  .psicologi-first-threesection .perche-invesstire.care-giver-purche {
+    padding-top: 20px;
   }
 }
 @media (min-width: 361px) and (max-width: 375px) {
@@ -6042,5 +6098,8 @@
   .Compila-main .compaila-bg .content-box p {
     font-size: 16px;
     line-height: 25px;
+  }
+  .psicologi-first-threesection .perche-invesstire.care-giver-purche {
+    padding-top: 20px;
   }
 }/*# sourceMappingURL=responsive.css.map */
