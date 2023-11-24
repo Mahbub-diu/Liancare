@@ -2170,10 +2170,6 @@ footer .footer-social-link ul li a img {
   padding-bottom: 125px;
   background: unset;
 }
-.care-giver-purche .left-image-box {
-  padding-left: 10px;
-  width: 80%;
-}
 .care-giver-purche .left-image-box img {
   min-height: unset;
   border-top-left-radius: 60px;
@@ -2181,81 +2177,6 @@ footer .footer-social-link ul li a img {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 60px;
   width: 100%;
-}
-.care-giver-purche .left-image-box .shape-image {
-  top: -13px;
-  left: 0;
-  z-index: 1;
-  height: calc(100% - 37px);
-  width: calc(100% - 16px);
-}
-.care-giver-purche .left-image-box .shape-image img {
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-}
-.care-giver-purche .left-image-box .four-icon-box {
-  position: absolute;
-  right: -115px;
-  top: 50%;
-  width: 165px;
-  min-height: 300px;
-  z-index: 9;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-}
-.care-giver-purche .left-image-box .four-icon-box .single-icon-box {
-  width: 165px;
-  height: 73px;
-  border-radius: 8px;
-  background: #fff;
-  margin-bottom: 10px;
-  position: relative;
-  padding: 30px 31px 27px 39px;
-}
-.care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box {
-  width: 48px;
-  height: 48px;
-  padding: 8px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  background: #dff1c7;
-  background: #bb2749;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  position: absolute;
-  left: -22px;
-}
-.care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box img {
-  width: 32px;
-  height: 32px;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-}
-.care-giver-purche .left-image-box .four-icon-box .single-icon-box p {
-  margin: 0;
-  color: #121212;
-  font-family: "Nunito", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 16px;
-  text-transform: uppercase;
 }
 .care-giver-purche .right-contentbox .section-titlebox p {
   color: #bb2749;
@@ -2452,4 +2373,7 @@ footer .footer-social-link ul li a img {
 .psicologi-first-threesection .perche-invesstire.care-giver-purche {
   padding-top: 100px;
   margin-bottom: 0;
+}
+.psicologi-first-threesection .agendi-banner-main .left-content-box {
+  margin-top: 0px;
 }/*# sourceMappingURL=style.css.map */

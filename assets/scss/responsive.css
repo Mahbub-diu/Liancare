@@ -54,6 +54,45 @@
     background-position: center center;
     content: "";
   }
+  .agendi-first-threesection.caregiver-first-threesection .agendi-inner-toptwo::before {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    height: 77%;
+    background: url(../images/caregiver/2560x1700.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+  }
+  .agendi-first-threesection.caregiver-first-threesection .perche-invesstire.care-giver-purche {
+    position: unset;
+  }
+  .agendi-bottom-four.caregive-bottom-four::before {
+    position: absolute;
+    top: -71px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 71px);
+    content: "";
+    background: url(../images/caregiver/2560x1370.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .caregive-bottom-four::after {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 100px);
+    content: "";
+    background: url(../images/caregiver/bottom-circle-2560x1300.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 @media (min-width: 1441px) and (max-width: 1600px) {
   .container {
@@ -218,6 +257,14 @@
     background-size: cover;
     background-position: center bottom;
     background-color: #f7f9fc;
+  }
+  .agendi-first-threesection.caregiver-first-threesection .agendi-inner-toptwo::before {
+    height: 53%;
+    top: 105px;
+  }
+  .caregive-bottom-four::after {
+    top: 50px;
+    height: calc(100% - 50px);
   }
 }
 @media (min-width: 1366px) and (max-width: 1440px) {
@@ -577,6 +624,14 @@
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 20px;
+  }
+  .agendi-first-threesection.caregiver-first-threesection .agendi-inner-toptwo::before {
+    height: 53%;
+    top: 105px;
+  }
+  .caregive-bottom-four::after {
+    top: 50px;
+    height: calc(100% - 50px);
   }
 }
 @media (min-width: 1241px) and (max-width: 1365px) {
@@ -1129,6 +1184,27 @@
     line-height: 25px;
     margin-bottom: 20px;
   }
+  .caregiver-first-threesection .agendi-inner-toptwo::before {
+    height: 56%;
+    top: 40px;
+  }
+  .caregiver-first-threesection .caregiver-banner-main {
+    padding: 30px 0 0 0;
+  }
+  .caregiver-piattofarma .single-box h4 {
+    font-size: 22px;
+  }
+  .testimonial-main {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .Compila-main {
+    margin-bottom: 50px;
+  }
+  .Compila-main .compaila-bg .content-box h3 {
+    font-size: 30px;
+    line-height: 38px;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1240px) {
   header .mobile-menu-main .mobilemenu-header {
@@ -1662,6 +1738,27 @@
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 20px;
+  }
+  .caregiver-first-threesection .agendi-inner-toptwo::before {
+    height: 56%;
+    top: 40px;
+  }
+  .caregiver-first-threesection .caregiver-banner-main {
+    padding: 30px 0 0 0;
+  }
+  .caregiver-piattofarma .single-box h4 {
+    font-size: 22px;
+  }
+  .testimonial-main {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .Compila-main {
+    margin-bottom: 50px;
+  }
+  .Compila-main .compaila-bg .content-box h3 {
+    font-size: 30px;
+    line-height: 38px;
   }
 }
 @media (min-width: 1241px) {
@@ -2226,6 +2323,9 @@
   .testimonial-main {
     padding-top: 50px;
     padding-bottom: 60px;
+  }
+  .Compila-main {
+    margin-bottom: 50px;
   }
   .Compila-main .compaila-bg .content-box h3 {
     font-size: 30px;
@@ -2816,36 +2916,6 @@
   }
   .care-giver-purche {
     padding-bottom: 60px;
-  }
-  .care-giver-purche .left-image-box {
-    width: 80%;
-    padding-left: 10px;
-  }
-  .care-giver-purche .left-image-box .shape-image {
-    top: -10px;
-    right: 0;
-  }
-  .care-giver-purche .left-image-box .four-icon-box {
-    right: -79px;
-    min-height: unset;
-    width: 125px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box {
-    width: 146px;
-    height: 50px;
-    padding: 15px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box p {
-    font-size: 14px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box {
-    width: 35px;
-    height: 35px;
-    padding: 5px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box img {
-    width: 25px;
-    height: 25px;
   }
   .care-giver-purche .right-contentbox {
     margin-top: 0;
@@ -3497,36 +3567,6 @@
   .care-giver-purche {
     padding-bottom: 60px;
   }
-  .care-giver-purche .left-image-box {
-    width: 80%;
-    padding-left: 10px;
-  }
-  .care-giver-purche .left-image-box .shape-image {
-    top: -10px;
-    right: 0;
-  }
-  .care-giver-purche .left-image-box .four-icon-box {
-    right: -79px;
-    min-height: unset;
-    width: 125px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box {
-    width: 146px;
-    height: 50px;
-    padding: 15px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box p {
-    font-size: 14px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box {
-    width: 35px;
-    height: 35px;
-    padding: 5px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box img {
-    width: 25px;
-    height: 25px;
-  }
   .caregiver-piattofarma {
     padding-bottom: 50px;
   }
@@ -4129,36 +4169,6 @@
     bottom: 226px;
     left: -8px;
     padding: 15px 15px;
-  }
-  .care-giver-purche .left-image-box {
-    width: 80%;
-    padding-left: 10px;
-  }
-  .care-giver-purche .left-image-box .shape-image {
-    top: -10px;
-    right: 0;
-  }
-  .care-giver-purche .left-image-box .four-icon-box {
-    right: -79px;
-    min-height: unset;
-    width: 125px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box {
-    width: 146px;
-    height: 50px;
-    padding: 15px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box p {
-    font-size: 14px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box {
-    width: 35px;
-    height: 35px;
-    padding: 5px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box img {
-    width: 25px;
-    height: 25px;
   }
   .caregiver-piattofarma {
     padding-bottom: 50px;
@@ -4777,36 +4787,6 @@
     left: -8px;
     padding: 15px 15px;
   }
-  .care-giver-purche .left-image-box {
-    width: 80%;
-    padding-left: 10px;
-  }
-  .care-giver-purche .left-image-box .shape-image {
-    top: -10px;
-    right: 0;
-  }
-  .care-giver-purche .left-image-box .four-icon-box {
-    right: -68px;
-    min-height: unset;
-    width: 125px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box {
-    width: 124px;
-    height: 50px;
-    padding: 15px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box p {
-    font-size: 14px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box {
-    width: 35px;
-    height: 35px;
-    padding: 5px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box img {
-    width: 25px;
-    height: 25px;
-  }
   .caregiver-piattofarma {
     padding-bottom: 50px;
   }
@@ -5424,36 +5404,6 @@
     left: -8px;
     padding: 15px 15px;
   }
-  .care-giver-purche .left-image-box {
-    width: 80%;
-    padding-left: 10px;
-  }
-  .care-giver-purche .left-image-box .shape-image {
-    top: -10px;
-    right: 0;
-  }
-  .care-giver-purche .left-image-box .four-icon-box {
-    right: -68px;
-    min-height: unset;
-    width: 125px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box {
-    width: 124px;
-    height: 50px;
-    padding: 15px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box p {
-    font-size: 14px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box {
-    width: 35px;
-    height: 35px;
-    padding: 5px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box img {
-    width: 25px;
-    height: 25px;
-  }
   .caregiver-piattofarma {
     padding-bottom: 50px;
   }
@@ -6050,36 +6000,6 @@
     bottom: 226px;
     left: -8px;
     padding: 15px 15px;
-  }
-  .care-giver-purche .left-image-box {
-    width: 80%;
-    padding-left: 10px;
-  }
-  .care-giver-purche .left-image-box .shape-image {
-    top: -10px;
-    right: 0;
-  }
-  .care-giver-purche .left-image-box .four-icon-box {
-    right: -68px;
-    min-height: unset;
-    width: 125px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box {
-    width: 124px;
-    height: 50px;
-    padding: 15px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box p {
-    font-size: 14px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box {
-    width: 35px;
-    height: 35px;
-    padding: 5px;
-  }
-  .care-giver-purche .left-image-box .four-icon-box .single-icon-box .icon-box img {
-    width: 25px;
-    height: 25px;
   }
   .caregiver-piattofarma {
     padding-bottom: 50px;

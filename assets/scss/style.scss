@@ -2222,8 +2222,8 @@ footer {
   padding-bottom: 125px;
   background: unset;
   .left-image-box {
-    padding-left: 10px;
-    width: 80%;
+    // padding-left: 10px;
+    // width: 80%;
     img {
       min-height: unset;
       border-top-left-radius: 60px;
@@ -2231,69 +2231,6 @@ footer {
       border-bottom-left-radius: 6px;
       border-bottom-right-radius: 60px;
       width: 100%;
-    }
-    .shape-image {
-      top: -13px;
-      left: 0;
-      z-index: 1;
-      height: calc(100% - 37px);
-      width: calc(100% - 16px);
-      img {
-        border-radius: 0;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        -ms-border-radius: 0;
-        -o-border-radius: 0;
-      }
-    }
-    .four-icon-box {
-      position: absolute;
-      right: -115px;
-      top: 50%;
-      width: 165px;
-      min-height: 300px;
-      z-index: 9;
-      transform: translateY(-50%);
-
-      -webkit-transform: translateY(-50%);
-      -moz-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      -o-transform: translateY(-50%);
-      .single-icon-box {
-        width: 165px;
-        height: 73px;
-        border-radius: 8px;
-        background: #fff;
-        margin-bottom: 10px;
-        position: relative;
-        padding: 30px 31px 27px 39px;
-        .icon-box {
-          @include iconbox-size-48;
-          background: $btn-magenta;
-          @include translate-Y-center;
-          position: absolute;
-          left: -22px;
-          img {
-            width: 32px;
-            height: 32px;
-            border-radius: 0;
-            -webkit-border-radius: 0;
-            -moz-border-radius: 0;
-            -ms-border-radius: 0;
-            -o-border-radius: 0;
-          }
-        }
-        p {
-          margin: 0;
-          color: $text-color;
-          font-family: $nunito;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 16px;
-          text-transform: uppercase;
-        }
-      }
     }
   }
   .right-contentbox {
@@ -2510,6 +2447,11 @@ footer {
   .perche-invesstire.care-giver-purche {
     padding-top: 100px;
     margin-bottom: 0;
+  }
+  .agendi-banner-main {
+    .left-content-box {
+      margin-top: 0px;
+    }
   }
 }
 
