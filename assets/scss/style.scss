@@ -355,95 +355,8 @@ header {
       max-width: 100%;
       position: relative;
       z-index: 9;
-      min-height: 520px;
-      border-radius: 8px 100px;
-    }
-    .shape-iamge {
-      position: absolute;
-      top: 14.5px;
-      right: -12.5px;
-      z-index: 1;
-      img {
-        position: unset;
-      }
-    }
-    .center-text-box {
-      width: 165px;
-      height: 73px;
-      border-radius: 8px;
-      background: #fff;
-      position: absolute;
-      top: 52%;
-      right: -30px;
-      z-index: 9;
-      transform: translateY(-50%);
-      padding: 28px 40px 29px 39px;
-      color: $text-color;
-      font-family: $nunito;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 16px;
-      text-transform: uppercase;
-      .center-textbox-icon {
-        width: 48px;
-        height: 48px;
-        padding: 8px;
-        background: $btn-magenta;
-        border-radius: 8px;
-        right: 9px;
-        top: 55px;
-        position: absolute;
-        img {
-          min-height: unset;
-          border-radius: 0;
-          -webkit-border-radius: 0;
-          -moz-border-radius: 0;
-          -ms-border-radius: 0;
-          -o-border-radius: 0;
-        }
-      }
-    }
-    .bottom-text-box {
-      width: 225px;
-      height: 96px;
-      border-radius: 8px;
-      background: #fff;
-      position: absolute;
-      left: 84px;
-      bottom: -70px;
-      z-index: 9;
-      padding: 32px 40px 24px 36px;
-      color: $green-blod;
-      font-family: $nunito;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 16px;
-
-      strong {
-        color: $text-color;
-        font-size: 20px;
-        line-height: 24px;
-      }
-      .botttom-textbox-icon {
-        width: 48px;
-        height: 48px;
-        padding: 8px;
-        background: $green-blod;
-        border-radius: 8px;
-        right: -10px;
-        top: -16px;
-        position: absolute;
-        img {
-          min-height: unset;
-          border-radius: 0;
-          -webkit-border-radius: 0;
-          -moz-border-radius: 0;
-          -ms-border-radius: 0;
-          -o-border-radius: 0;
-        }
-      }
+      // min-height: 520px;
+      // border-radius: 8px 100px;
     }
   }
 }
@@ -599,8 +512,8 @@ header {
     img {
       position: relative;
       z-index: 9;
-      border-radius: 6px 60px;
-      min-height: 554px;
+      // border-radius: 6px 60px;
+      // min-height: 554px;
     }
     .shape-image {
       position: absolute;
