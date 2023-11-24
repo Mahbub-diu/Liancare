@@ -124,6 +124,24 @@
   .psicologi-first-threesection .perche-invesstire.care-giver-purche {
     background: unset;
   }
+  .chiciamo-first-threesection {
+    background: url(../images/chiciamo/2560x1938.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background: url(../images/chiciamo/extra-larage-circle.png);
+    content: "";
+    height: calc(100% - 500px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
 @media (min-width: 1441px) and (max-width: 1600px) {
   .container {
@@ -296,6 +314,13 @@
   .caregive-bottom-four::after {
     top: 50px;
     height: calc(100% - 50px);
+  }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 90%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 55%;
   }
 }
 @media (min-width: 1366px) and (max-width: 1440px) {
@@ -663,6 +688,13 @@
   .caregive-bottom-four::after {
     top: 50px;
     height: calc(100% - 50px);
+  }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 90%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 55%;
   }
 }
 @media (min-width: 1241px) and (max-width: 1365px) {
@@ -1236,6 +1268,13 @@
     font-size: 30px;
     line-height: 38px;
   }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 90%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 55%;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1240px) {
   header .mobile-menu-main .mobilemenu-header {
@@ -1793,6 +1832,13 @@
   }
   .psicologi-first-threesection .perche-invesstire.care-giver-purche {
     padding-top: 50px;
+  }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 90%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 51%;
   }
 }
 @media (min-width: 1241px) {
@@ -2367,6 +2413,13 @@
   }
   .psicologi-first-threesection .perche-invesstire.care-giver-purche {
     padding-top: 50px;
+  }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 90%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 51%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3006,6 +3059,13 @@
   .agendi-first-threesection.psicologi-first-threesection .agendi-inner-toptwo::before {
     height: 66%;
     top: 0;
+  }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 90%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 58%;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -3657,6 +3717,13 @@
   .psicologi-first-threesection .perche-invesstire.care-giver-purche {
     padding-top: 20px;
   }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 50%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 44%;
+  }
 }
 @media (min-width: 415px) and (max-width: 575px) {
   header .mobile-menu-main .mobilemenu-header {
@@ -4262,6 +4329,13 @@
   }
   .psicologi-first-threesection .perche-invesstire.care-giver-purche {
     padding-top: 20px;
+  }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 50%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 44%;
   }
 }
 @media (min-width: 376px) and (max-width: 414px) {
@@ -4879,6 +4953,13 @@
   .Compila-main .compaila-bg .content-box p {
     font-size: 16px;
     line-height: 25px;
+  }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 50%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 44%;
   }
 }
 @media (max-width: 414px) {
@@ -5502,6 +5583,13 @@
     font-size: 16px;
     line-height: 25px;
   }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 50%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 44%;
+  }
 }
 @media (max-width: 360px) {
   header .mobile-menu-main .mobilemenu-header {
@@ -6101,5 +6189,12 @@
   }
   .psicologi-first-threesection .perche-invesstire.care-giver-purche {
     padding-top: 20px;
+  }
+  .chiciamo-first-threesection .chiciamo-innertwo::before {
+    top: 0;
+    height: 50%;
+  }
+  .chiciamo-bottom-two::after {
+    height: 44%;
   }
 }/*# sourceMappingURL=responsive.css.map */
