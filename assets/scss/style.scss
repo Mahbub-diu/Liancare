@@ -1156,6 +1156,9 @@ footer {
           color: $text-color;
           font-family: $nunito;
           text-decoration: underline;
+          &:hover {
+            color: $green-blod;
+          }
         }
       }
       li:not(:last-child) {
@@ -1996,6 +1999,17 @@ footer {
         font-weight: 700;
         line-height: 22px;
         color: $green-blod;
+        border: 1px solid transparent;
+        &:hover {
+          border-color: #fff;
+          background: $green-blod;
+          color: #fff;
+        }
+        transition: 0.3s ease;
+        -webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -ms-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
       }
     }
     .form-control.is-invalid,
@@ -2273,6 +2287,17 @@ footer {
       font-style: normal;
       font-weight: 700;
       line-height: 22px;
+      border: 1px solid transparent;
+      &:hover {
+        background: $btn-magenta;
+        border-color: #fff;
+        color: #fff;
+      }
+      transition: 0.3s ease;
+      -webkit-transition: 0.3s ease;
+      -moz-transition: 0.3s ease;
+      -ms-transition: 0.3s ease;
+      -o-transition: 0.3s ease;
     }
   }
 }

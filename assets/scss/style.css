@@ -1125,6 +1125,9 @@ footer .privecy-box ul li a {
   font-family: "Nunito", sans-serif;
   text-decoration: underline;
 }
+footer .privecy-box ul li a:hover {
+  color: #77ac2c;
+}
 footer .privecy-box ul li:not(:last-child)::after {
   position: absolute;
   right: -5px;
@@ -1971,6 +1974,17 @@ footer .footer-social-link ul li a img {
   font-weight: 700;
   line-height: 22px;
   color: #77ac2c;
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+.agendi-contact-form .contact-bg form .submit-btn:hover {
+  border-color: #fff;
+  background: #77ac2c;
+  color: #fff;
 }
 .agendi-contact-form .contact-bg .form-control.is-invalid,
 .agendi-contact-form .contact-bg .was-validated .form-control:invalid {
@@ -2209,6 +2223,17 @@ footer .footer-social-link ul li a img {
   font-style: normal;
   font-weight: 700;
   line-height: 22px;
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+.Compila-main .compaila-bg button:hover {
+  background: #bb2749;
+  border-color: #fff;
+  color: #fff;
 }
 
 .caregive-bottom-four::before {
