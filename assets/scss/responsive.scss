@@ -2715,6 +2715,42 @@
   }
 
   // agendi page start from here
+
+  // caregiver page start from here
+  .caregiver-first-threesection {
+    .agendi-inner-toptwo {
+      &::before {
+        height: 56%;
+        top: 40px;
+      }
+    }
+    .caregiver-banner-main {
+      padding: 30px 0 0 0;
+    }
+  }
+  .caregiver-piattofarma {
+    .single-box {
+      h4 {
+        font-size: 22px;
+      }
+    }
+  }
+  .testimonial-main {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .Compila-main {
+    .compaila-bg {
+      .content-box {
+        h3 {
+          font-size: 30px;
+          line-height: 38px;
+        }
+      }
+    }
+  }
+
+  // caregive page end here
 }
 @media (max-width: 1024px) {
 }
@@ -3370,6 +3406,137 @@
   }
 
   // agendi page start from here
+
+  // caregiver page start from here
+  // caregiver page start from here
+  .caregiver-first-threesection {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    .caregiver-banner-main {
+      padding: 30px 0 0 0;
+      .right-content-box {
+        display: inline-block;
+        .top-text-box {
+          width: 143px;
+          height: 50px;
+          top: 170px;
+          left: -10px;
+        }
+
+        .right-text-box {
+          width: 200px;
+          height: 81px;
+          right: -8px;
+          bottom: 39%;
+          padding: 20px 20px;
+          color: #bb2749;
+          transform: translateY(-50%);
+        }
+        .bottom-text-box {
+          width: 125px;
+          height: 48px;
+          bottom: 200px;
+          left: -24px;
+          padding: 15px 15px;
+        }
+      }
+      .ps-0 {
+        text-align: center;
+      }
+      .left-content-box {
+        text-align: left;
+      }
+    }
+  }
+  .care-giver-purche {
+    padding-bottom: 60px;
+    .left-image-box {
+      width: 80%;
+      padding-left: 10px;
+      .shape-image {
+        top: -10px;
+        right: 0;
+      }
+      .four-icon-box {
+        right: -79px;
+        min-height: unset;
+        width: 125px;
+        .single-icon-box {
+          width: 146px;
+          height: 50px;
+
+          padding: 15px;
+          p {
+            font-size: 14px;
+          }
+          .icon-box {
+            width: 35px;
+            height: 35px;
+            padding: 5px;
+            img {
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+      }
+    }
+    .right-contentbox {
+      margin-top: 0;
+    }
+  }
+
+  .caregiver-piattofarma {
+    padding-bottom: 50px;
+    .single-box {
+      margin-bottom: 30px;
+      h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .caregive-bottom-four {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+    }
+    &::after {
+      top: 60px;
+      left: 0;
+      width: 100%;
+      height: calc(100% - 60px);
+    }
+  }
+  .testimonial-main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Compila-main {
+    margin-bottom: 50px;
+    .compaila-bg {
+      padding: 45px 40px;
+      .content-box {
+        h3 {
+          font-size: 20px;
+          margin-bottom: 16px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  // caregiver page end here
+
+  // care giver page end here
 }
 
 @media (max-width: 991px) {
@@ -4051,6 +4218,131 @@
   }
 
   // agendi page start from here
+
+  // caregiver page start from here
+  .caregiver-first-threesection {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    .caregiver-banner-main {
+      padding: 30px 0 0 0;
+      .right-content-box {
+        display: inline-block;
+        .top-text-box {
+          width: 143px;
+          height: 50px;
+          top: 191px;
+          left: -10px;
+        }
+
+        .right-text-box {
+          width: 200px;
+          height: 81px;
+          right: -8px;
+          bottom: 39%;
+          padding: 20px 20px;
+          color: #bb2749;
+          transform: translateY(-50%);
+        }
+        .bottom-text-box {
+          width: 125px;
+          height: 48px;
+          bottom: 226px;
+          left: -8px;
+          padding: 15px 15px;
+        }
+      }
+      .ps-0 {
+        text-align: center;
+      }
+      .left-content-box {
+        text-align: left;
+      }
+    }
+  }
+  .care-giver-purche {
+    padding-bottom: 60px;
+    .left-image-box {
+      width: 80%;
+      padding-left: 10px;
+      .shape-image {
+        top: -10px;
+        right: 0;
+      }
+      .four-icon-box {
+        right: -79px;
+        min-height: unset;
+        width: 125px;
+        .single-icon-box {
+          width: 146px;
+          height: 50px;
+
+          padding: 15px;
+          p {
+            font-size: 14px;
+          }
+          .icon-box {
+            width: 35px;
+            height: 35px;
+            padding: 5px;
+            img {
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .caregiver-piattofarma {
+    padding-bottom: 50px;
+    .single-box {
+      margin-bottom: 30px;
+      h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .caregive-bottom-four {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+    }
+    &::after {
+      top: -40px;
+      left: 0;
+      width: 100%;
+      height: calc(100% + 40px);
+    }
+  }
+  .testimonial-main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Compila-main {
+    margin-bottom: 50px;
+    .compaila-bg {
+      padding: 45px 40px;
+      .content-box {
+        h3 {
+          font-size: 20px;
+          margin-bottom: 16px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  // caregiver page end here
 }
 @media (max-width: 767px) {
 }
@@ -4059,32 +4351,6 @@
 @media (min-width: 415px) and (max-width: 575px) {
   // header part start from here
   header {
-    .main-header {
-      .circle-shape-two {
-        width: 1074px;
-        height: 1074px;
-        top: -265px;
-
-        left: -32px;
-
-        border-top: 50px solid red;
-        border-left: 50px solid green;
-        border-bottom: 50px solid yellow;
-        border-right: 50px solid pink;
-
-        border-top-left-radius: 1074px;
-        border-bottom-left-radius: 1074px;
-
-        border-top-right-radius: 1074px;
-        border-bottom-right-radius: 1074px;
-      }
-      .circle-shape-one {
-        display: none;
-      }
-      .circle-shape-three {
-        display: none;
-      }
-    }
     .mobile-menu-main {
       .mobilemenu-header {
         z-index: 9;
@@ -4711,6 +4977,123 @@
   }
 
   // agendi page start from here
+
+  // caregiver page start from here
+  .caregiver-first-threesection {
+    .caregiver-banner-main {
+      padding: 30px 0 0 0;
+      .right-content-box {
+        .top-text-box {
+          width: 143px;
+          height: 50px;
+          top: 191px;
+          left: -10px;
+        }
+
+        .right-text-box {
+          width: 200px;
+          height: 81px;
+          right: -8px;
+          bottom: 39%;
+          padding: 20px 20px;
+          color: #bb2749;
+          transform: translateY(-50%);
+        }
+        .bottom-text-box {
+          width: 125px;
+          height: 48px;
+          bottom: 226px;
+          left: -8px;
+          padding: 15px 15px;
+        }
+      }
+    }
+  }
+  .care-giver-purche {
+    .left-image-box {
+      width: 80%;
+      padding-left: 10px;
+      .shape-image {
+        top: -10px;
+        right: 0;
+      }
+      .four-icon-box {
+        right: -79px;
+        min-height: unset;
+        width: 125px;
+        .single-icon-box {
+          width: 146px;
+          height: 50px;
+
+          padding: 15px;
+          p {
+            font-size: 14px;
+          }
+          .icon-box {
+            width: 35px;
+            height: 35px;
+            padding: 5px;
+            img {
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .caregiver-piattofarma {
+    padding-bottom: 50px;
+    .single-box {
+      margin-bottom: 30px;
+      h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .caregive-bottom-four {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      height: 100%;
+
+      border-top-left-radius: 125px;
+      border-top-right-radius: 125px;
+    }
+    &::after {
+      top: -40px;
+      left: 0;
+      width: 100%;
+      height: calc(100% + 40px);
+    }
+  }
+  .testimonial-main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Compila-main {
+    margin-bottom: 50px;
+    .compaila-bg {
+      padding: 45px 40px;
+      .content-box {
+        h3 {
+          font-size: 20px;
+          margin-bottom: 16px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  // caregiver page end here
 }
 
 @media (max-width: 575px) {
@@ -5464,6 +5847,7 @@
     padding-bottom: 50px;
   }
   .Compila-main {
+    margin-bottom: 50px;
     .compaila-bg {
       padding: 30px 20px;
       .content-box {
@@ -6232,6 +6616,7 @@
     padding-bottom: 50px;
   }
   .Compila-main {
+    margin-bottom: 50px;
     .compaila-bg {
       padding: 30px 20px;
       .content-box {
@@ -6974,6 +7359,7 @@
     padding-bottom: 50px;
   }
   .Compila-main {
+    margin-bottom: 50px;
     .compaila-bg {
       padding: 30px 20px;
       .content-box {
